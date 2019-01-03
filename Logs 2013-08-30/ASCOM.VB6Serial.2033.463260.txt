@@ -1,0 +1,55 @@
+20:33:46.327 Connected Get                0ms False
+20:33:46.328 Port Set                     0ms 3
+20:33:46.328 PortSpeed Set                0ms 9600
+20:33:46.328 ReceiveTimeout Set           0ms 10
+20:33:46.355 Connected Set               26ms True
+20:33:46.356 Connected Get                0ms True
+20:33:46.358 ClearBuffers                 1ms
+20:33:46.360 Transmit                     1ms #:GR#
+20:33:46.432 ReceiveTerminated           71ms 21:38.9#
+20:33:46.435 ClearBuffers                 1ms
+20:33:46.435 Connected Get                0ms True
+20:33:46.437 ClearBuffers                 1ms
+20:33:46.439 Transmit                     1ms #:GR#
+20:33:46.495 ReceiveTerminated           55ms 21:39.0#
+20:33:48.496 Connected Get                0ms True
+20:33:48.498 ClearBuffers                 1ms
+20:33:48.500 Transmit                     1ms #:U#
+20:33:48.500 Connected Get                0ms True
+20:33:48.502 ClearBuffers                 1ms
+20:33:48.504 Transmit                     1ms #:GR#
+20:33:48.652 ReceiveTerminated          147ms 21:38:56#
+20:33:48.666 Connected Get                0ms True
+20:33:48.684 Connected Get                0ms True
+20:33:48.686 ClearBuffers                 1ms
+20:33:48.688 Transmit                     1ms #:GR#
+20:33:48.780 ReceiveTerminated           91ms 21:38:56#
+20:33:48.783 Connected Get                0ms True
+20:33:48.785 ClearBuffers                 1ms
+20:33:48.787 Transmit                     1ms #:GD#
+20:33:48.859 ReceiveTerminated           71ms -01[DF]35:19#
+20:33:48.861 Connected Get                0ms True
+20:33:48.863 ClearBuffers                 1ms
+20:33:48.865 Transmit                     1ms #:GS#
+20:33:48.939 ReceiveTerminated           73ms 18:51:43#
+20:33:48.941 Connected Get                0ms True
+20:33:48.943 ClearBuffers                 1ms
+20:33:48.945 Transmit                     1ms #:GS#
+20:33:49.019 ReceiveTerminated           73ms 18:51:43#
+20:33:49.024 Connected Get                0ms True
+20:33:49.024 Connected Get                0ms True
+20:33:49.025 Connected Get                0ms True
+20:33:49.027 ClearBuffers                 1ms
+20:33:49.029 Transmit                     1ms #:GR#
+20:33:49.115 ReceiveTerminated           85ms 21:38:56#
+20:33:51.116 Connected Get                0ms True
+20:33:51.118 ClearBuffers                 1ms
+20:33:51.120 Transmit                     1ms #:U#
+20:33:51.120 Connected Get                0ms True
+20:33:51.122 ClearBuffers                 1ms
+20:33:51.124 Transmit                     1ms #:GR#
+20:33:51.272 ReceiveTerminated          147ms 21:38.9#
+20:33:51.275 ClearBuffers                 1ms
+20:33:51.389 Connected Set              113ms False
+20:33:51.389 Connected Get                0ms False
+20:33:51.389 Connected Get                0ms False

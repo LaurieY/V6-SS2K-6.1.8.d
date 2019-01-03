@@ -1,0 +1,21 @@
+20:33:21.174 AscomDriver               Successfully created TraceLogger
+20:33:21.174 AscomDriver               Device ProgID: SS2K.Telescope
+20:33:21.174 AscomDriver               Device type: Telescope
+20:33:21.174 ProgID                    SS2K.Telescope
+20:33:21.174 IsComObject               True
+20:33:21.194                           
+20:33:21.194 InterfaceVersion Get      GET InterfaceVersion - COM
+20:33:21.194 InterfaceVersion Get        2
+20:33:21.194 Telescope                 Platform 5 Telescope: False Platform 6 Telescope: False
+20:33:21.194                           
+20:33:21.194 SetupDialog               Start
+20:33:21.194 SetupDialog                 Calling SetupDialog - it is a COM object
+20:33:25.506 SetupDialog                 Successfully called method, no return value
+20:33:25.506 Connected Set             Issuing Connected command: False
+20:33:25.506                           
+20:33:25.507 Connected Set             SET Connected - COM
+20:33:25.507 Connected Set               False
+20:33:25.507 Dispose COM               This is a COM object, attempting to call its Dispose method
+20:33:25.507 Dispose COM               Driver does not have a Dispose method
+20:33:25.507 Dispose COM               This is a COM object so attempting to release it
+20:33:25.507 Dispose COM               Object Count is now: 0

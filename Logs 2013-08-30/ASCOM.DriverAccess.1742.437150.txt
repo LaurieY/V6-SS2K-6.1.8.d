@@ -1,0 +1,940 @@
+17:42:43.716 AscomDriver               Successfully created TraceLogger
+17:42:43.716 AscomDriver               Device ProgID: SS2K.Telescope
+17:42:43.717 AscomDriver               Device type: Telescope
+17:42:43.717 ProgID                    SS2K.Telescope
+17:42:43.718 IsComObject               True
+17:42:43.771                           
+17:42:43.771 InterfaceVersion Get      GET InterfaceVersion - COM
+17:42:43.771 InterfaceVersion Get        2
+17:42:43.771 Telescope                 Platform 5 Telescope: False Platform 6 Telescope: False
+17:42:43.784 Connected Set             Issuing Connected command: True
+17:42:43.784                           
+17:42:43.784 Connected Set             SET Connected - COM
+17:42:43.784 Connected Set               True
+17:42:46.172                           
+17:42:46.172 CanMoveAxis               Start
+17:42:46.172 CanMoveAxis                 Parameter: axisPrimary
+17:42:46.172 CanMoveAxis                 Calling CanMoveAxis - it is a COM object
+17:42:46.173 CanMoveAxis                 True
+17:42:46.175 AxisRates                 
+17:42:46.175 AxisRates                 axisPrimary
+17:42:46.175 AxisRates                 Platform 5/6 COM Telescope
+17:42:46.176 AxisRates Class           Created object: System.__ComObject for axis: axisPrimary
+17:42:46.176 AxisRates Class           Count(axisPrimary) = 2
+17:42:46.176 AxisRates Class           Count(axisPrimary) = 2
+17:42:46.177 AxisRates Class           Axis: axisPrimary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.177 AxisRates Class           Axis: axisPrimary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.177 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.177 AxisRates Class           Count(axisPrimary) = 2
+17:42:46.177 AxisRates Class           Axis: axisPrimary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.177 AxisRates Class           Axis: axisPrimary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates Class           Count(axisPrimary) = 2
+17:42:46.178 AxisRates                 
+17:42:46.178 AxisRates                 axisSecondary
+17:42:46.178 AxisRates                 Platform 5/6 COM Telescope
+17:42:46.178 AxisRates Class           Created object: System.__ComObject for axis: axisSecondary
+17:42:46.178 AxisRates Class           Count(axisSecondary) = 2
+17:42:46.178 AxisRates Class           Count(axisSecondary) = 2
+17:42:46.178 AxisRates Class           Axis: axisSecondary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates Class           Axis: axisSecondary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates Class           Count(axisSecondary) = 2
+17:42:46.178 AxisRates Class           Axis: axisSecondary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates Class           Axis: axisSecondary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+17:42:46.178 AxisRates Class           Count(axisSecondary) = 2
+17:42:46.178 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+17:42:46.270 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+17:42:46.271                           
+17:42:46.271 SideOfPier Get            GET SideOfPier - COM
+17:42:46.274 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)SideOfPier is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 243
+17:42:46.275 SideOfPier Get              Translating COM not implemented exception to PropertyNotImplementedException: SS2K.Telescope SideOfPier
+17:42:46.276                           
+17:42:46.276 CanSetPierSide Get        GET CanSetPierSide - COM
+17:42:46.276 CanSetPierSide Get          False
+17:42:46.277 Connected Get             Issuing Connected command
+17:42:46.277                           
+17:42:46.277 Connected Get             GET Connected - COM
+17:42:46.277 Connected Get               True
+17:42:46.277                           
+17:42:46.277 CanSlew Get               GET CanSlew - COM
+17:42:46.277 CanSlew Get                 True
+17:42:46.298                           
+17:42:46.298 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:46.299 CanSlewAsync Get            True
+17:42:46.299                           
+17:42:46.299 RightAscension Get        GET RightAscension - COM
+17:42:46.414 RightAscension Get          16.5044444444444
+17:42:46.414                           
+17:42:46.414 Declination Get           GET Declination - COM
+17:42:46.507 Declination Get             -26.4591666666667
+17:42:46.508                           
+17:42:46.508 SiderealTime Get          GET SiderealTime - COM
+17:42:46.587 SiderealTime Get            16.0036111111111
+17:42:46.587                           
+17:42:46.587 SiderealTime Get          GET SiderealTime - COM
+17:42:46.667 SiderealTime Get            16.0038888888889
+17:42:47.385                           
+17:42:47.385 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:47.385 CanSlewAsync Get            True
+17:42:47.385                           
+17:42:47.385 RightAscension Get        GET RightAscension - COM
+17:42:47.451 RightAscension Get          16.5044444444444
+17:42:47.451                           
+17:42:47.451 Declination Get           GET Declination - COM
+17:42:47.546 Declination Get             -26.4591666666667
+17:42:47.546                           
+17:42:47.547 SiderealTime Get          GET SiderealTime - COM
+17:42:47.626 SiderealTime Get            16.0041666666667
+17:42:47.626                           
+17:42:47.626 SiderealTime Get          GET SiderealTime - COM
+17:42:47.707 SiderealTime Get            16.0041666666667
+17:42:48.426                           
+17:42:48.426 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:48.426 CanSlewAsync Get            True
+17:42:48.426                           
+17:42:48.426 RightAscension Get        GET RightAscension - COM
+17:42:48.492 RightAscension Get          16.5044444444444
+17:42:48.492                           
+17:42:48.492 Declination Get           GET Declination - COM
+17:42:48.569 Declination Get             -26.4591666666667
+17:42:48.570                           
+17:42:48.570 SiderealTime Get          GET SiderealTime - COM
+17:42:48.649 SiderealTime Get            16.0044444444444
+17:42:48.649                           
+17:42:48.649 SiderealTime Get          GET SiderealTime - COM
+17:42:48.729 SiderealTime Get            16.0044444444444
+17:42:49.451                           
+17:42:49.451 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:49.451 CanSlewAsync Get            True
+17:42:49.451                           
+17:42:49.451 RightAscension Get        GET RightAscension - COM
+17:42:49.529 RightAscension Get          16.5044444444444
+17:42:49.529                           
+17:42:49.529 Declination Get           GET Declination - COM
+17:42:49.610 Declination Get             -26.4591666666667
+17:42:49.610                           
+17:42:49.610 SiderealTime Get          GET SiderealTime - COM
+17:42:49.689 SiderealTime Get            16.0047222222222
+17:42:49.689                           
+17:42:49.689 SiderealTime Get          GET SiderealTime - COM
+17:42:49.769 SiderealTime Get            16.0047222222222
+17:42:50.489                           
+17:42:50.489 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:50.489 CanSlewAsync Get            True
+17:42:50.489                           
+17:42:50.489 RightAscension Get        GET RightAscension - COM
+17:42:50.569 RightAscension Get          16.5044444444444
+17:42:50.569                           
+17:42:50.569 Declination Get           GET Declination - COM
+17:42:50.646 Declination Get             -26.4591666666667
+17:42:50.646                           
+17:42:50.646 SiderealTime Get          GET SiderealTime - COM
+17:42:50.726 SiderealTime Get            16.005
+17:42:50.726                           
+17:42:50.726 SiderealTime Get          GET SiderealTime - COM
+17:42:50.806 SiderealTime Get            16.005
+17:42:51.514                           
+17:42:51.514 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:51.514 CanSlewAsync Get            True
+17:42:51.514                           
+17:42:51.514 RightAscension Get        GET RightAscension - COM
+17:42:51.606 RightAscension Get          16.5044444444444
+17:42:51.606                           
+17:42:51.606 Declination Get           GET Declination - COM
+17:42:51.685 Declination Get             -26.4591666666667
+17:42:51.685                           
+17:42:51.686 SiderealTime Get          GET SiderealTime - COM
+17:42:51.733 SiderealTime Get            16.0052777777778
+17:42:51.733                           
+17:42:51.733 SiderealTime Get          GET SiderealTime - COM
+17:42:51.813 SiderealTime Get            16.0052777777778
+17:42:52.534                           
+17:42:52.534 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:52.534 CanSlewAsync Get            True
+17:42:52.534                           
+17:42:52.534 RightAscension Get        GET RightAscension - COM
+17:42:52.646 RightAscension Get          16.5044444444444
+17:42:52.646                           
+17:42:52.646 Declination Get           GET Declination - COM
+17:42:52.724 Declination Get             -26.4591666666667
+17:42:52.724                           
+17:42:52.725 SiderealTime Get          GET SiderealTime - COM
+17:42:52.772 SiderealTime Get            16.0055555555556
+17:42:52.772                           
+17:42:52.772 SiderealTime Get          GET SiderealTime - COM
+17:42:52.851 SiderealTime Get            16.0055555555556
+17:42:53.564                           
+17:42:53.564 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:53.564 CanSlewAsync Get            True
+17:42:53.564                           
+17:42:53.564 RightAscension Get        GET RightAscension - COM
+17:42:53.651 RightAscension Get          16.5044444444444
+17:42:53.651                           
+17:42:53.651 Declination Get           GET Declination - COM
+17:42:53.731 Declination Get             -26.4591666666667
+17:42:53.731                           
+17:42:53.731 SiderealTime Get          GET SiderealTime - COM
+17:42:53.812 SiderealTime Get            16.0058333333333
+17:42:53.812                           
+17:42:53.812 SiderealTime Get          GET SiderealTime - COM
+17:42:53.890 SiderealTime Get            16.0058333333333
+17:42:54.609                           
+17:42:54.609 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:54.609 CanSlewAsync Get            True
+17:42:54.609                           
+17:42:54.609 RightAscension Get        GET RightAscension - COM
+17:42:54.721 RightAscension Get          16.5044444444444
+17:42:54.721                           
+17:42:54.721 Declination Get           GET Declination - COM
+17:42:54.800 Declination Get             -26.4591666666667
+17:42:54.800                           
+17:42:54.800 SiderealTime Get          GET SiderealTime - COM
+17:42:54.848 SiderealTime Get            16.0061111111111
+17:42:54.848                           
+17:42:54.848 SiderealTime Get          GET SiderealTime - COM
+17:42:54.928 SiderealTime Get            16.0061111111111
+17:42:55.637                           
+17:42:55.637 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:55.637 CanSlewAsync Get            True
+17:42:55.637                           
+17:42:55.637 RightAscension Get        GET RightAscension - COM
+17:42:55.728 RightAscension Get          16.5044444444444
+17:42:55.729                           
+17:42:55.729 Declination Get           GET Declination - COM
+17:42:55.808 Declination Get             -26.4591666666667
+17:42:55.808                           
+17:42:55.809 SiderealTime Get          GET SiderealTime - COM
+17:42:55.888 SiderealTime Get            16.0063888888889
+17:42:55.888                           
+17:42:55.888 SiderealTime Get          GET SiderealTime - COM
+17:42:55.967 SiderealTime Get            16.0063888888889
+17:42:56.686                           
+17:42:56.686 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:56.686 CanSlewAsync Get            True
+17:42:56.686                           
+17:42:56.686 RightAscension Get        GET RightAscension - COM
+17:42:56.768 RightAscension Get          16.5044444444444
+17:42:56.768                           
+17:42:56.768 Declination Get           GET Declination - COM
+17:42:56.847 Declination Get             -26.4591666666667
+17:42:56.847                           
+17:42:56.848 SiderealTime Get          GET SiderealTime - COM
+17:42:56.926 SiderealTime Get            16.0066666666667
+17:42:56.926                           
+17:42:56.926 SiderealTime Get          GET SiderealTime - COM
+17:42:57.006 SiderealTime Get            16.0066666666667
+17:42:57.719                           
+17:42:57.719 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:57.719 CanSlewAsync Get            True
+17:42:57.719                           
+17:42:57.719 RightAscension Get        GET RightAscension - COM
+17:42:57.790 RightAscension Get          16.5044444444444
+17:42:57.791                           
+17:42:57.791 Declination Get           GET Declination - COM
+17:42:57.886 Declination Get             -26.4591666666667
+17:42:57.886                           
+17:42:57.886 SiderealTime Get          GET SiderealTime - COM
+17:42:57.964 SiderealTime Get            16.0069444444444
+17:42:57.964                           
+17:42:57.964 SiderealTime Get          GET SiderealTime - COM
+17:42:58.045 SiderealTime Get            16.0069444444444
+17:42:58.753                           
+17:42:58.753 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:58.753 CanSlewAsync Get            True
+17:42:58.753                           
+17:42:58.753 RightAscension Get        GET RightAscension - COM
+17:42:58.828 RightAscension Get          16.5044444444444
+17:42:58.828                           
+17:42:58.828 Declination Get           GET Declination - COM
+17:42:58.907 Declination Get             -26.4591666666667
+17:42:58.907                           
+17:42:58.908 SiderealTime Get          GET SiderealTime - COM
+17:42:59.004 SiderealTime Get            16.0072222222222
+17:42:59.004                           
+17:42:59.004 SiderealTime Get          GET SiderealTime - COM
+17:42:59.084 SiderealTime Get            16.0072222222222
+17:42:59.791 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+17:42:59.791 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+17:42:59.791                           
+17:42:59.791 MoveAxis                  Start
+17:42:59.791 MoveAxis                    Parameter: axisPrimary
+17:42:59.791 MoveAxis                    Parameter: -0.00208903730827575
+17:42:59.792 MoveAxis                    Calling MoveAxis - it is a COM object
+17:42:59.793 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:42:59.795 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:42:59.795                           
+17:42:59.795 Slewing Get               GET Slewing - COM
+17:42:59.795 Slewing Get                 False
+17:42:59.795                           
+17:42:59.795 MoveAxis                  Start
+17:42:59.796 MoveAxis                    Parameter: axisPrimary
+17:42:59.796 MoveAxis                    Parameter: 0
+17:42:59.796 MoveAxis                    Calling MoveAxis - it is a COM object
+17:42:59.797 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:42:59.798 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:42:59.798                           
+17:42:59.799 CanSlewAsync Get          GET CanSlewAsync - COM
+17:42:59.800 CanSlewAsync Get            True
+17:42:59.800                           
+17:42:59.800 RightAscension Get        GET RightAscension - COM
+17:42:59.883 RightAscension Get          16.5044444444444
+17:42:59.883                           
+17:42:59.883 Declination Get           GET Declination - COM
+17:42:59.961 Declination Get             -26.4591666666667
+17:42:59.961                           
+17:42:59.962 SiderealTime Get          GET SiderealTime - COM
+17:43:00.041 SiderealTime Get            16.0075
+17:43:00.041                           
+17:43:00.041 SiderealTime Get          GET SiderealTime - COM
+17:43:00.121 SiderealTime Get            16.0075
+17:43:00.164                           
+17:43:00.164 Slewing Get               GET Slewing - COM
+17:43:00.164 Slewing Get                 False
+17:43:00.164                           
+17:43:00.164 MoveAxis                  Start
+17:43:00.164 MoveAxis                    Parameter: axisPrimary
+17:43:00.164 MoveAxis                    Parameter: 0
+17:43:00.164 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:00.166 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:00.167 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:00.835                           
+17:43:00.835 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:00.835 CanSlewAsync Get            True
+17:43:00.835                           
+17:43:00.835 RightAscension Get        GET RightAscension - COM
+17:43:00.904 RightAscension Get          16.5044444444444
+17:43:00.904                           
+17:43:00.905 Declination Get           GET Declination - COM
+17:43:01.000 Declination Get             -26.4591666666667
+17:43:01.000                           
+17:43:01.000 SiderealTime Get          GET SiderealTime - COM
+17:43:01.082 SiderealTime Get            16.0077777777778
+17:43:01.082                           
+17:43:01.082 SiderealTime Get          GET SiderealTime - COM
+17:43:01.161 SiderealTime Get            16.0077777777778
+17:43:01.636 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+17:43:01.636 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+17:43:01.636                           
+17:43:01.636 MoveAxis                  Start
+17:43:01.636 MoveAxis                    Parameter: axisPrimary
+17:43:01.636 MoveAxis                    Parameter: 0.00208903730827575
+17:43:01.636 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:01.638 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:01.639 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:01.639                           
+17:43:01.639 Slewing Get               GET Slewing - COM
+17:43:01.639 Slewing Get                 False
+17:43:01.639                           
+17:43:01.639 MoveAxis                  Start
+17:43:01.639 MoveAxis                    Parameter: axisPrimary
+17:43:01.639 MoveAxis                    Parameter: 0
+17:43:01.639 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:01.641 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:01.641 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:01.869                           
+17:43:01.869 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:01.869 CanSlewAsync Get            True
+17:43:01.869                           
+17:43:01.869 RightAscension Get        GET RightAscension - COM
+17:43:01.958 RightAscension Get          16.5044444444444
+17:43:01.958                           
+17:43:01.959 Declination Get           GET Declination - COM
+17:43:02.039 Declination Get             -26.4591666666667
+17:43:02.039                           
+17:43:02.040 SiderealTime Get          GET SiderealTime - COM
+17:43:02.087 SiderealTime Get            16.0080555555556
+17:43:02.087                           
+17:43:02.087 SiderealTime Get          GET SiderealTime - COM
+17:43:02.167 SiderealTime Get            16.0080555555556
+17:43:02.880                           
+17:43:02.880 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:02.880 CanSlewAsync Get            True
+17:43:02.880                           
+17:43:02.880 RightAscension Get        GET RightAscension - COM
+17:43:02.998 RightAscension Get          16.5044444444444
+17:43:02.998                           
+17:43:02.999 Declination Get           GET Declination - COM
+17:43:03.078 Declination Get             -26.4591666666667
+17:43:03.078                           
+17:43:03.078 SiderealTime Get          GET SiderealTime - COM
+17:43:03.158 SiderealTime Get            16.0083333333333
+17:43:03.158                           
+17:43:03.158 SiderealTime Get          GET SiderealTime - COM
+17:43:03.237 SiderealTime Get            16.0083333333333
+17:43:03.950                           
+17:43:03.950 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:03.950 CanSlewAsync Get            True
+17:43:03.950                           
+17:43:03.950 RightAscension Get        GET RightAscension - COM
+17:43:04.037 RightAscension Get          16.5044444444444
+17:43:04.037                           
+17:43:04.038 Declination Get           GET Declination - COM
+17:43:04.117 Declination Get             -26.4591666666667
+17:43:04.117                           
+17:43:04.117 SiderealTime Get          GET SiderealTime - COM
+17:43:04.165 SiderealTime Get            16.0086111111111
+17:43:04.165                           
+17:43:04.165 SiderealTime Get          GET SiderealTime - COM
+17:43:04.245 SiderealTime Get            16.0086111111111
+17:43:04.660                           
+17:43:04.660 Slewing Get               GET Slewing - COM
+17:43:04.660 Slewing Get                 False
+17:43:04.660                           
+17:43:04.660 MoveAxis                  Start
+17:43:04.660 MoveAxis                    Parameter: axisPrimary
+17:43:04.660 MoveAxis                    Parameter: 0
+17:43:04.660 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:04.662 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:04.663 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:04.954                           
+17:43:04.954 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:04.954 CanSlewAsync Get            True
+17:43:04.954                           
+17:43:04.954 RightAscension Get        GET RightAscension - COM
+17:43:05.027 RightAscension Get          16.5044444444444
+17:43:05.028                           
+17:43:05.028 Declination Get           GET Declination - COM
+17:43:05.123 Declination Get             -26.4591666666667
+17:43:05.124                           
+17:43:05.124 SiderealTime Get          GET SiderealTime - COM
+17:43:05.203 SiderealTime Get            16.0088888888889
+17:43:05.204                           
+17:43:05.204 SiderealTime Get          GET SiderealTime - COM
+17:43:05.284 SiderealTime Get            16.0088888888889
+17:43:05.390 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+17:43:05.391 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+17:43:05.391                           
+17:43:05.391 MoveAxis                  Start
+17:43:05.391 MoveAxis                    Parameter: axisPrimary
+17:43:05.391 MoveAxis                    Parameter: 0.00208903730827575
+17:43:05.391 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:05.392 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:05.393 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:05.393                           
+17:43:05.393 Slewing Get               GET Slewing - COM
+17:43:05.393 Slewing Get                 False
+17:43:05.393                           
+17:43:05.393 MoveAxis                  Start
+17:43:05.393 MoveAxis                    Parameter: axisPrimary
+17:43:05.393 MoveAxis                    Parameter: 0
+17:43:05.393 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:05.394 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:05.395 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:06.004                           
+17:43:06.004 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:06.004 CanSlewAsync Get            True
+17:43:06.004                           
+17:43:06.004 RightAscension Get        GET RightAscension - COM
+17:43:06.113 RightAscension Get          16.5044444444444
+17:43:06.113                           
+17:43:06.114 Declination Get           GET Declination - COM
+17:43:06.193 Declination Get             -26.4591666666667
+17:43:06.193                           
+17:43:06.193 SiderealTime Get          GET SiderealTime - COM
+17:43:06.241 SiderealTime Get            16.0091666666667
+17:43:06.241                           
+17:43:06.241 SiderealTime Get          GET SiderealTime - COM
+17:43:06.321 SiderealTime Get            16.0091666666667
+17:43:07.034                           
+17:43:07.034 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:07.034 CanSlewAsync Get            True
+17:43:07.034                           
+17:43:07.034 RightAscension Get        GET RightAscension - COM
+17:43:07.105 RightAscension Get          16.5044444444444
+17:43:07.105                           
+17:43:07.106 Declination Get           GET Declination - COM
+17:43:07.201 Declination Get             -26.4591666666667
+17:43:07.201                           
+17:43:07.201 SiderealTime Get          GET SiderealTime - COM
+17:43:07.281 SiderealTime Get            16.0094444444444
+17:43:07.281                           
+17:43:07.281 SiderealTime Get          GET SiderealTime - COM
+17:43:07.359 SiderealTime Get            16.0094444444444
+17:43:07.360                           
+17:43:07.360 Slewing Get               GET Slewing - COM
+17:43:07.360 Slewing Get                 False
+17:43:07.360                           
+17:43:07.360 MoveAxis                  Start
+17:43:07.361 MoveAxis                    Parameter: axisPrimary
+17:43:07.361 MoveAxis                    Parameter: 0
+17:43:07.361 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:07.362 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:07.363 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:08.076                           
+17:43:08.076 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:08.076 CanSlewAsync Get            True
+17:43:08.076                           
+17:43:08.076 RightAscension Get        GET RightAscension - COM
+17:43:08.160 RightAscension Get          16.5044444444444
+17:43:08.160                           
+17:43:08.160 Declination Get           GET Declination - COM
+17:43:08.239 Declination Get             -26.4591666666667
+17:43:08.239                           
+17:43:08.240 SiderealTime Get          GET SiderealTime - COM
+17:43:08.303 SiderealTime Get            16.0097222222222
+17:43:08.303                           
+17:43:08.303 SiderealTime Get          GET SiderealTime - COM
+17:43:08.383 SiderealTime Get            16.0097222222222
+17:43:08.511 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+17:43:08.511 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+17:43:08.511                           
+17:43:08.511 MoveAxis                  Start
+17:43:08.511 MoveAxis                    Parameter: axisSecondary
+17:43:08.511 MoveAxis                    Parameter: 0.00208903730827575
+17:43:08.511 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:08.513 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:08.514 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:08.514                           
+17:43:08.514 Slewing Get               GET Slewing - COM
+17:43:08.515 Slewing Get                 False
+17:43:08.515                           
+17:43:08.515 MoveAxis                  Start
+17:43:08.515 MoveAxis                    Parameter: axisPrimary
+17:43:08.515 MoveAxis                    Parameter: 0
+17:43:08.515 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:08.516 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:08.517 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:09.098                           
+17:43:09.098 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:09.098 CanSlewAsync Get            True
+17:43:09.098                           
+17:43:09.098 RightAscension Get        GET RightAscension - COM
+17:43:09.181 RightAscension Get          16.5044444444444
+17:43:09.181                           
+17:43:09.182 Declination Get           GET Declination - COM
+17:43:09.277 Declination Get             -26.4591666666667
+17:43:09.277                           
+17:43:09.278 SiderealTime Get          GET SiderealTime - COM
+17:43:09.341 SiderealTime Get            16.01
+17:43:09.341                           
+17:43:09.341 SiderealTime Get          GET SiderealTime - COM
+17:43:09.421 SiderealTime Get            16.01
+17:43:10.134                           
+17:43:10.134 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:10.134 CanSlewAsync Get            True
+17:43:10.134                           
+17:43:10.134 RightAscension Get        GET RightAscension - COM
+17:43:10.219 RightAscension Get          16.5044444444444
+17:43:10.219                           
+17:43:10.220 Declination Get           GET Declination - COM
+17:43:10.299 Declination Get             -26.4591666666667
+17:43:10.299                           
+17:43:10.299 SiderealTime Get          GET SiderealTime - COM
+17:43:10.379 SiderealTime Get            16.0102777777778
+17:43:10.379                           
+17:43:10.379 SiderealTime Get          GET SiderealTime - COM
+17:43:10.459 SiderealTime Get            16.0102777777778
+17:43:11.167                           
+17:43:11.167 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:11.167 CanSlewAsync Get            True
+17:43:11.167                           
+17:43:11.167 RightAscension Get        GET RightAscension - COM
+17:43:11.258 RightAscension Get          16.5044444444444
+17:43:11.258                           
+17:43:11.259 Declination Get           GET Declination - COM
+17:43:11.260                           
+17:43:11.260 Slewing Get               GET Slewing - COM
+17:43:11.260 Slewing Get                 False
+17:43:11.260                           
+17:43:11.260 MoveAxis                  Start
+17:43:11.260 MoveAxis                    Parameter: axisPrimary
+17:43:11.260 MoveAxis                    Parameter: 0
+17:43:11.260 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:11.261 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:11.262 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:11.338 Declination Get             -26.4591666666667
+17:43:11.339                           
+17:43:11.339 SiderealTime Get          GET SiderealTime - COM
+17:43:11.386 SiderealTime Get            16.0105555555556
+17:43:11.386                           
+17:43:11.386 SiderealTime Get          GET SiderealTime - COM
+17:43:11.467 SiderealTime Get            16.0105555555556
+17:43:11.984 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+17:43:11.984 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+17:43:11.984                           
+17:43:11.984 MoveAxis                  Start
+17:43:11.984 MoveAxis                    Parameter: axisSecondary
+17:43:11.984 MoveAxis                    Parameter: 0.00208903730827575
+17:43:11.984 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:11.986 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:11.988 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:11.988                           
+17:43:11.988 Slewing Get               GET Slewing - COM
+17:43:11.988 Slewing Get                 False
+17:43:11.988                           
+17:43:11.988 MoveAxis                  Start
+17:43:11.988 MoveAxis                    Parameter: axisPrimary
+17:43:11.988 MoveAxis                    Parameter: 0
+17:43:11.988 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:11.989 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:11.991 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:12.181                           
+17:43:12.181 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:12.181 CanSlewAsync Get            True
+17:43:12.181                           
+17:43:12.181 RightAscension Get        GET RightAscension - COM
+17:43:12.265 RightAscension Get          16.5044444444444
+17:43:12.265                           
+17:43:12.266 Declination Get           GET Declination - COM
+17:43:12.345 Declination Get             -26.4591666666667
+17:43:12.345                           
+17:43:12.345 SiderealTime Get          GET SiderealTime - COM
+17:43:12.425 SiderealTime Get            16.0108333333333
+17:43:12.425                           
+17:43:12.425 SiderealTime Get          GET SiderealTime - COM
+17:43:12.505 SiderealTime Get            16.0108333333333
+17:43:13.218                           
+17:43:13.218 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:13.218 CanSlewAsync Get            True
+17:43:13.218                           
+17:43:13.218 RightAscension Get        GET RightAscension - COM
+17:43:13.304 RightAscension Get          16.5044444444444
+17:43:13.305                           
+17:43:13.305 Declination Get           GET Declination - COM
+17:43:13.385 Declination Get             -26.4591666666667
+17:43:13.385                           
+17:43:13.385 SiderealTime Get          GET SiderealTime - COM
+17:43:13.464 SiderealTime Get            16.0111111111111
+17:43:13.464                           
+17:43:13.464 SiderealTime Get          GET SiderealTime - COM
+17:43:13.544 SiderealTime Get            16.0111111111111
+17:43:13.735                           
+17:43:13.735 Slewing Get               GET Slewing - COM
+17:43:13.735 Slewing Get                 False
+17:43:13.735                           
+17:43:13.735 MoveAxis                  Start
+17:43:13.735 MoveAxis                    Parameter: axisPrimary
+17:43:13.735 MoveAxis                    Parameter: 0
+17:43:13.735 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:13.737 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:13.738 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:14.257                           
+17:43:14.257 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:14.257 CanSlewAsync Get            True
+17:43:14.257                           
+17:43:14.257 RightAscension Get        GET RightAscension - COM
+17:43:14.343 RightAscension Get          16.5044444444444
+17:43:14.343                           
+17:43:14.343 Declination Get           GET Declination - COM
+17:43:14.422 Declination Get             -26.4591666666667
+17:43:14.422                           
+17:43:14.423 SiderealTime Get          GET SiderealTime - COM
+17:43:14.502 SiderealTime Get            16.0113888888889
+17:43:14.502                           
+17:43:14.502 SiderealTime Get          GET SiderealTime - COM
+17:43:14.582 SiderealTime Get            16.0113888888889
+17:43:14.624 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+17:43:14.624 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+17:43:14.624                           
+17:43:14.624 MoveAxis                  Start
+17:43:14.624 MoveAxis                    Parameter: axisSecondary
+17:43:14.624 MoveAxis                    Parameter: 0.00208903730827575
+17:43:14.624 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:14.626 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:14.627 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:14.627                           
+17:43:14.627 Slewing Get               GET Slewing - COM
+17:43:14.627 Slewing Get                 False
+17:43:14.627                           
+17:43:14.627 MoveAxis                  Start
+17:43:14.627 MoveAxis                    Parameter: axisPrimary
+17:43:14.627 MoveAxis                    Parameter: 0
+17:43:14.627 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:14.629 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:14.630 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:15.095                           
+17:43:15.095 Slewing Get               GET Slewing - COM
+17:43:15.095 Slewing Get                 False
+17:43:15.095                           
+17:43:15.095 MoveAxis                  Start
+17:43:15.095 MoveAxis                    Parameter: axisPrimary
+17:43:15.095 MoveAxis                    Parameter: 0
+17:43:15.095 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:15.096 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:15.097 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:15.291                           
+17:43:15.291 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:15.291 CanSlewAsync Get            True
+17:43:15.291                           
+17:43:15.291 RightAscension Get        GET RightAscension - COM
+17:43:15.382 RightAscension Get          16.5044444444444
+17:43:15.383                           
+17:43:15.383 Declination Get           GET Declination - COM
+17:43:15.460 Declination Get             -26.4591666666667
+17:43:15.460                           
+17:43:15.461 SiderealTime Get          GET SiderealTime - COM
+17:43:15.540 SiderealTime Get            16.0116666666667
+17:43:15.540                           
+17:43:15.540 SiderealTime Get          GET SiderealTime - COM
+17:43:15.621 SiderealTime Get            16.0119444444444
+17:43:15.774 Connected Get             Issuing Connected command
+17:43:15.774                           
+17:43:15.774 Connected Get             GET Connected - COM
+17:43:15.774 Connected Get               True
+17:43:15.775 AbortSlew                 Calling method
+17:43:15.775                           
+17:43:15.775 AbortSlew                 Start
+17:43:15.775 AbortSlew                   Calling AbortSlew - it is a COM object
+17:43:16.412                           
+17:43:16.412 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:16.467 CanSlewAsync Get            True
+17:43:16.467                           
+17:43:16.467 RightAscension Get        GET RightAscension - COM
+17:43:16.610 RightAscension Get          16.5047222222222
+17:43:16.610                           
+17:43:16.611 Declination Get           GET Declination - COM
+17:43:16.707 Declination Get             -26.4591666666667
+17:43:16.707                           
+17:43:16.707 SiderealTime Get          GET SiderealTime - COM
+17:43:16.787 SiderealTime Get            16.0122222222222
+17:43:16.787                           
+17:43:16.787 SiderealTime Get          GET SiderealTime - COM
+17:43:16.882 SiderealTime Get            16.0122222222222
+17:43:17.033 Connected Get             Issuing Connected command
+17:43:17.033                           
+17:43:17.033 Connected Get             GET Connected - COM
+17:43:17.033 Connected Get               True
+17:43:17.033 AbortSlew                 Calling method
+17:43:17.033                           
+17:43:17.033 AbortSlew                 Start
+17:43:17.033 AbortSlew                   Calling AbortSlew - it is a COM object
+17:43:17.439                           
+17:43:17.439 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:17.472 CanSlewAsync Get            True
+17:43:17.472                           
+17:43:17.472 RightAscension Get        GET RightAscension - COM
+17:43:17.585 RightAscension Get          16.5047222222222
+17:43:17.586                           
+17:43:17.586 Declination Get           GET Declination - COM
+17:43:17.665 Declination Get             -26.4591666666667
+17:43:17.665                           
+17:43:17.665 SiderealTime Get          GET SiderealTime - COM
+17:43:17.825 SiderealTime Get            16.0125
+17:43:17.825                           
+17:43:17.825 SiderealTime Get          GET SiderealTime - COM
+17:43:17.905 SiderealTime Get            16.0125
+17:43:18.453                           
+17:43:18.453 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:18.508 CanSlewAsync Get            True
+17:43:18.508                           
+17:43:18.508 RightAscension Get        GET RightAscension - COM
+17:43:18.624 RightAscension Get          16.5052777777778
+17:43:18.625                           
+17:43:18.625 Declination Get           GET Declination - COM
+17:43:18.703 Declination Get             -26.4591666666667
+17:43:18.703                           
+17:43:18.703 SiderealTime Get          GET SiderealTime - COM
+17:43:18.783 SiderealTime Get            16.0127777777778
+17:43:18.783                           
+17:43:18.783 SiderealTime Get          GET SiderealTime - COM
+17:43:18.831 SiderealTime Get            16.0127777777778
+17:43:19.491                           
+17:43:19.491 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:19.524 CanSlewAsync Get            True
+17:43:19.524                           
+17:43:19.524 RightAscension Get        GET RightAscension - COM
+17:43:19.664 RightAscension Get          16.5052777777778
+17:43:19.664                           
+17:43:19.664 Declination Get           GET Declination - COM
+17:43:19.743 Declination Get             -26.4591666666667
+17:43:19.743                           
+17:43:19.744 SiderealTime Get          GET SiderealTime - COM
+17:43:19.792 SiderealTime Get            16.0130555555556
+17:43:19.792                           
+17:43:19.792 SiderealTime Get          GET SiderealTime - COM
+17:43:19.872 SiderealTime Get            16.0130555555556
+17:43:20.040 AbortSlew                   Successfully called method, no return value
+17:43:20.040 AbortSlew                 Finished
+17:43:20.040                           
+17:43:20.040 Slewing Get               GET Slewing - COM
+17:43:20.040 Slewing Get                 False
+17:43:20.040                           
+17:43:20.040 MoveAxis                  Start
+17:43:20.040 MoveAxis                    Parameter: axisPrimary
+17:43:20.040 MoveAxis                    Parameter: 0
+17:43:20.040 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:20.042 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:20.043 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:20.044 AbortSlew                   Successfully called method, no return value
+17:43:20.044 AbortSlew                 Finished
+17:43:20.045                           
+17:43:20.045 Slewing Get               GET Slewing - COM
+17:43:20.045 Slewing Get                 False
+17:43:20.045                           
+17:43:20.045 MoveAxis                  Start
+17:43:20.045 MoveAxis                    Parameter: axisPrimary
+17:43:20.045 MoveAxis                    Parameter: 0
+17:43:20.045 MoveAxis                    Calling MoveAxis - it is a COM object
+17:43:20.046 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)GuideRateRightAscension is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:43:20.047 MoveAxis                    Translating COM not implemented exception to MethodNotImplementedException: SS2K.Telescope MoveAxis
+17:43:20.591                           
+17:43:20.591 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:20.591 CanSlewAsync Get            True
+17:43:20.592                           
+17:43:20.592 RightAscension Get        GET RightAscension - COM
+17:43:20.703 RightAscension Get          16.5052777777778
+17:43:20.703                           
+17:43:20.703 Declination Get           GET Declination - COM
+17:43:20.797 Declination Get             -26.4591666666667
+17:43:20.798                           
+17:43:20.798 SiderealTime Get          GET SiderealTime - COM
+17:43:20.861 SiderealTime Get            16.0133333333333
+17:43:20.861                           
+17:43:20.861 SiderealTime Get          GET SiderealTime - COM
+17:43:20.910 SiderealTime Get            16.0133333333333
+17:43:21.623                           
+17:43:21.623 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:21.623 CanSlewAsync Get            True
+17:43:21.623                           
+17:43:21.623 RightAscension Get        GET RightAscension - COM
+17:43:21.692 RightAscension Get          16.5052777777778
+17:43:21.692                           
+17:43:21.692 Declination Get           GET Declination - COM
+17:43:21.788 Declination Get             -26.4591666666667
+17:43:21.788                           
+17:43:21.788 SiderealTime Get          GET SiderealTime - COM
+17:43:21.852 SiderealTime Get            16.0136111111111
+17:43:21.852                           
+17:43:21.852 SiderealTime Get          GET SiderealTime - COM
+17:43:21.932 SiderealTime Get            16.0136111111111
+17:43:22.685                           
+17:43:22.685 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:22.685 CanSlewAsync Get            True
+17:43:22.685                           
+17:43:22.685 RightAscension Get        GET RightAscension - COM
+17:43:22.780 RightAscension Get          16.5052777777778
+17:43:22.780                           
+17:43:22.780 Declination Get           GET Declination - COM
+17:43:22.874 Declination Get             -26.4591666666667
+17:43:22.874                           
+17:43:22.875 SiderealTime Get          GET SiderealTime - COM
+17:43:22.938 SiderealTime Get            16.0138888888889
+17:43:22.938                           
+17:43:22.938 SiderealTime Get          GET SiderealTime - COM
+17:43:22.986 SiderealTime Get            16.0138888888889
+17:43:23.699                           
+17:43:23.699 CanSlewAsync Get          GET CanSlewAsync - COM
+17:43:23.699 CanSlewAsync Get            True
+17:43:23.699                           
+17:43:23.699 RightAscension Get        GET RightAscension - COM
+17:43:23.771 RightAscension Get          16.5052777777778
+17:43:23.771                           
+17:43:23.771 Declination Get           GET Declination - COM
+17:43:23.849 Declination Get             -26.4591666666667
+17:43:23.849                           
+17:43:23.849 SiderealTime Get          GET SiderealTime - COM
+17:43:23.852 Connected Set             Issuing Connected command: False
+17:43:23.852                           
+17:43:23.852 Connected Set             SET Connected - COM
+17:43:23.852 Connected Set               False
+17:43:26.187 Dispose COM               This is a COM object, attempting to call its Dispose method
+17:43:26.187 Dispose COM               Driver does not have a Dispose method
+17:43:26.187 Dispose COM               This is a COM object so attempting to release it
+17:43:26.187 Dispose COM               Object Count is now: 0

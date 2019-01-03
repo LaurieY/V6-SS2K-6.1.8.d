@@ -1,0 +1,45 @@
+20:33:46.328 Port                      Set to: 3
+20:33:46.328 Speed                     Set to: ps9600
+20:33:46.328 ReceiveTimeout            Set to: 10 seconds
+20:33:46.329 Set Connected To          True
+20:33:46.329 Set Connected             Using COM port: COM3 Baud rate: ps9600 Timeout: 10000 DTR: True ForcedDTR: False RTS: False ForcedRTS: False Handshake: None Encoding: 1252
+20:33:46.329 Set Connected             Transmission format - Bits: 8 Parity: None Stop bits: One
+20:33:46.335 AvailableCOMPorts         COM1
+20:33:46.335 AvailableCOMPorts         COM3
+20:33:46.335 AvailableCOMPorts         COM9
+20:33:46.354 Set Connected             OK
+20:33:46.356 ClearBuffers              Completed
+20:33:46.358 Transmit                  > #:GR#
+20:33:46.360 ReceiveTerminated #       < 21:38.9#
+20:33:46.433 ClearBuffers              Completed
+20:33:46.435 ClearBuffers              Completed
+20:33:46.437 Transmit                  > #:GR#
+20:33:46.439 ReceiveTerminated #       < 21:39.0#
+20:33:48.496 ClearBuffers              Completed
+20:33:48.498 Transmit                  > #:U#
+20:33:48.500 ClearBuffers              Completed
+20:33:48.502 Transmit                  > #:GR#
+20:33:48.504 ReceiveTerminated #       < 21:38:56#
+20:33:48.684 ClearBuffers              Completed
+20:33:48.686 Transmit                  > #:GR#
+20:33:48.688 ReceiveTerminated #       < 21:38:56#
+20:33:48.783 ClearBuffers              Completed
+20:33:48.785 Transmit                  > #:GD#
+20:33:48.787 ReceiveTerminated #       < -01[DF]35:19#
+20:33:48.861 ClearBuffers              Completed
+20:33:48.863 Transmit                  > #:GS#
+20:33:48.865 ReceiveTerminated #       < 18:51:43#
+20:33:48.941 ClearBuffers              Completed
+20:33:48.943 Transmit                  > #:GS#
+20:33:48.945 ReceiveTerminated #       < 18:51:43#
+20:33:49.025 ClearBuffers              Completed
+20:33:49.027 Transmit                  > #:GR#
+20:33:49.029 ReceiveTerminated #       < 21:38:56#
+20:33:51.116 ClearBuffers              Completed
+20:33:51.118 Transmit                  > #:U#
+20:33:51.120 ClearBuffers              Completed
+20:33:51.122 Transmit                  > #:GR#
+20:33:51.124 ReceiveTerminated #       < 21:38.9#
+20:33:51.273 ClearBuffers              Completed
+20:33:51.275 Set Connected To          False
+20:33:51.275 Set Connected             Cleared buffers, closed port, disposed OK

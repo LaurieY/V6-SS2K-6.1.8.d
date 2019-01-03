@@ -1,0 +1,5 @@
+17:40:50.789 AscomDriver               Successfully created TraceLogger
+17:40:50.790 AscomDriver               Device ProgID: SS2K.Telescope
+17:40:50.790 AscomDriver               Device type: Telescope
+17:40:50.790 ProgID                    SS2K.Telescope
+17:40:50.790 IsComObject               True

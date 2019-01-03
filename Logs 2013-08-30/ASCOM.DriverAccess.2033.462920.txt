@@ -1,0 +1,90 @@
+20:33:46.292 AscomDriver               Successfully created TraceLogger
+20:33:46.292 AscomDriver               Device ProgID: SS2K.Telescope
+20:33:46.292 AscomDriver               Device type: Telescope
+20:33:46.292 ProgID                    SS2K.Telescope
+20:33:46.292 IsComObject               True
+20:33:46.315                           
+20:33:46.315 InterfaceVersion Get      GET InterfaceVersion - COM
+20:33:46.315 InterfaceVersion Get        2
+20:33:46.315 Telescope                 Platform 5 Telescope: False Platform 6 Telescope: False
+20:33:46.325 Connected Set             Issuing Connected command: True
+20:33:46.325                           
+20:33:46.325 Connected Set             SET Connected - COM
+20:33:46.325 Connected Set               True
+20:33:48.652                           
+20:33:48.652 CanMoveAxis               Start
+20:33:48.652 CanMoveAxis                 Parameter: axisPrimary
+20:33:48.652 CanMoveAxis                 Calling CanMoveAxis - it is a COM object
+20:33:48.653 CanMoveAxis                 True
+20:33:48.653 AxisRates                 
+20:33:48.653 AxisRates                 axisPrimary
+20:33:48.653 AxisRates                 Platform 5/6 COM Telescope
+20:33:48.663 AxisRates Class           Created object: System.__ComObject for axis: axisPrimary
+20:33:48.663 AxisRates Class           Count(axisPrimary) = 2
+20:33:48.663 AxisRates Class           Count(axisPrimary) = 2
+20:33:48.663 AxisRates Class           Axis: axisPrimary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates Class           Axis: axisPrimary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates Class           Count(axisPrimary) = 2
+20:33:48.663 AxisRates Class           Axis: axisPrimary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates Class           Axis: axisPrimary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates Class           Count(axisPrimary) = 2
+20:33:48.663 AxisRates                 
+20:33:48.663 AxisRates                 axisSecondary
+20:33:48.663 AxisRates                 Platform 5/6 COM Telescope
+20:33:48.663 AxisRates Class           Created object: System.__ComObject for axis: axisSecondary
+20:33:48.663 AxisRates Class           Count(axisSecondary) = 2
+20:33:48.663 AxisRates Class           Count(axisSecondary) = 2
+20:33:48.663 AxisRates Class           Axis: axisSecondary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates Class           Axis: axisSecondary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.663 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.664 AxisRates Class           Count(axisSecondary) = 2
+20:33:48.664 AxisRates Class           Axis: axisSecondary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.664 AxisRates Class           Axis: axisSecondary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.664 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+20:33:48.664 AxisRates Class           Count(axisSecondary) = 2
+20:33:48.664 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+20:33:48.664 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+20:33:48.664                           
+20:33:48.664 SideOfPier Get            GET SideOfPier - COM
+20:33:48.664 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)SideOfPier is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 243
+20:33:48.666 SideOfPier Get              Translating COM not implemented exception to PropertyNotImplementedException: SS2K.Telescope SideOfPier
+20:33:48.666                           
+20:33:48.666 CanSetPierSide Get        GET CanSetPierSide - COM
+20:33:48.666 CanSetPierSide Get          False
+20:33:48.666 Connected Get             Issuing Connected command
+20:33:48.666                           
+20:33:48.666 Connected Get             GET Connected - COM
+20:33:48.666 Connected Get               True
+20:33:48.666                           
+20:33:48.666 CanSlew Get               GET CanSlew - COM
+20:33:48.666 CanSlew Get                 True
+20:33:48.682                           
+20:33:48.682 CanSlewAsync Get          GET CanSlewAsync - COM
+20:33:48.683 CanSlewAsync Get            True
+20:33:48.683                           
+20:33:48.683 RightAscension Get        GET RightAscension - COM
+20:33:48.781 RightAscension Get          21.6488888888889
+20:33:48.781                           
+20:33:48.781 Declination Get           GET Declination - COM
+20:33:48.859 Declination Get             -1.58861111111111
+20:33:48.860                           
+20:33:48.860 SiderealTime Get          GET SiderealTime - COM
+20:33:48.939 SiderealTime Get            18.8619444444444
+20:33:48.939                           
+20:33:48.939 SiderealTime Get          GET SiderealTime - COM
+20:33:49.019 SiderealTime Get            18.8619444444444
+20:33:49.024 Connected Set             Issuing Connected command: False
+20:33:49.024                           
+20:33:49.024 Connected Set             SET Connected - COM
+20:33:49.024 Connected Set               False
+20:33:51.389 Dispose COM               This is a COM object, attempting to call its Dispose method
+20:33:51.389 Dispose COM               Driver does not have a Dispose method
+20:33:51.389 Dispose COM               This is a COM object so attempting to release it
+20:33:51.390 Dispose COM               Object Count is now: 0

@@ -1,0 +1,24 @@
+21:19:28.884 ChooserForm Load          Found ProgID: ASCOM.Simulator.Telescope, Description: @Telescope Simulator for .NET@
+21:19:28.884 ChooserForm Load          Found ProgID: ASCOMDome.Telescope, Description: @ASCOM Dome Control@
+21:19:28.884 ChooserForm Load          Found ProgID: GPUSB.Telescope, Description: @Shoestring GPUSB Guide Port Adapter@
+21:19:28.884 ChooserForm Load          Found ProgID: Hub.Telescope, Description: @Generic Hub@
+21:19:28.884 ChooserForm Load          Found ProgID: Pipe.Telescope, Description: @Pipe diagnostic tool@
+21:19:28.884 ChooserForm Load          Found ProgID: POTH.Telescope, Description: @POTH Hub@
+21:19:28.884 ChooserForm Load          Found ProgID: ScopeSim.Telescope, Description: @Simulator@
+21:19:28.884 ChooserForm Load          Found ProgID: SS2K.Telescope, Description: @SkySensor2000-PC-V6@
+21:19:28.893 DriverSelected            ProgID:SS2K.Telescope, Bitness: Bits32
+21:19:28.899 DriverCompatibility            ProgID: SS2K.Telescope, Bitness: Bits32
+21:19:28.899 DriverCompatibility            Found 32bit ProgID registration
+21:19:28.900 DriverCompatibility            Running on a 64bit OS, 32bit Registered: True, 64Bit Registered: False
+21:19:28.900 DriverCompatibility            Found CLSID entry
+21:19:28.906 DriverCompatibility            Returning: ""
+21:19:30.198 OK Click                  Processing ProgID: ASCOM.Simulator.Telescope, Description: @Telescope Simulator for .NET@
+21:19:30.198 OK Click                  Processing ProgID: ASCOMDome.Telescope, Description: @ASCOM Dome Control@
+21:19:30.198 OK Click                  Processing ProgID: GPUSB.Telescope, Description: @Shoestring GPUSB Guide Port Adapter@
+21:19:30.198 OK Click                  Processing ProgID: Hub.Telescope, Description: @Generic Hub@
+21:19:30.198 OK Click                  Processing ProgID: Pipe.Telescope, Description: @Pipe diagnostic tool@
+21:19:30.198 OK Click                  Processing ProgID: POTH.Telescope, Description: @POTH Hub@
+21:19:30.198 OK Click                  Processing ProgID: ScopeSim.Telescope, Description: @Simulator@
+21:19:30.198 OK Click                  Processing ProgID: SS2K.Telescope, Description: @SkySensor2000-PC-V6@
+21:19:30.198 OK Click                    Description is present... selecting ProgID: SS2K.Telescope
+21:19:30.198 OK Click                  Returning ProgID: SS2K.Telescope

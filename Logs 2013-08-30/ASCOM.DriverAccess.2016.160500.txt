@@ -1,0 +1,19 @@
+20:16:16.050 AscomDriver               Successfully created TraceLogger
+20:16:16.051 AscomDriver               Device ProgID: SS2K.Telescope
+20:16:16.051 AscomDriver               Device type: Telescope
+20:16:16.051 ProgID                    SS2K.Telescope
+20:16:16.051 IsComObject               True
+20:16:16.072                           
+20:16:16.072 InterfaceVersion Get      GET InterfaceVersion - COM
+20:16:16.072 InterfaceVersion Get        2
+20:16:16.072 Telescope                 Platform 5 Telescope: False Platform 6 Telescope: False
+20:16:16.072                           
+20:16:16.072 SetupDialog               Start
+20:16:16.072 SetupDialog                 Calling SetupDialog - it is a COM object
+20:16:16.073 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Form already displayed; can't show modally
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+20:16:16.074 SetupDialog                 COM Exception so throwing inner exception: 'Form already displayed; can't show modally' '0x800a0190'

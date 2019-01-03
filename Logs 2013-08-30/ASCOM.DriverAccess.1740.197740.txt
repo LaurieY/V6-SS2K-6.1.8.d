@@ -1,0 +1,19 @@
+17:40:19.774 AscomDriver               Successfully created TraceLogger
+17:40:19.775 AscomDriver               Device ProgID: SS2K.Telescope
+17:40:19.775 AscomDriver               Device type: Telescope
+17:40:19.776 ProgID                    SS2K.Telescope
+17:40:19.807 IsComObject               True
+17:40:19.992                           
+17:40:19.992 InterfaceVersion Get      GET InterfaceVersion - COM
+17:40:19.992 InterfaceVersion Get        2
+17:40:20.010 Telescope                 Platform 5 Telescope: False Platform 6 Telescope: False
+17:40:20.010                           
+17:40:20.010 SetupDialog               Start
+17:40:20.010 SetupDialog                 Calling SetupDialog - it is a COM object
+17:40:48.444 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Automation error
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+17:40:48.445 SetupDialog                 COM Exception so throwing inner exception: 'Automation error' '0x800a01b8'

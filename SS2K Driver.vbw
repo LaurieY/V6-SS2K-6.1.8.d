@@ -1,0 +1,16 @@
+ErrorConstants = 148, 309, 803, 931, C
+AstronomyFuncs = 46, 46, 701, 668, C
+frmSetup = 170, 114, 825, 737, , 545, 118, 1315, 741, C
+Communication = 90, 22, 745, 645, C
+ROMVersion = 22, 22, 828, 615, C
+Scope = 140, 119, 795, 742, C
+GlobalVariables = 205, 61, 860, 684, C
+SiteElevation = 184, 184, 839, 806, C
+Tracing = 83, 55, 1232, 677, C
+Logging = 518, 74, 1311, 696, C
+Telescope = 5, 7, 1399, 742, 
+AxisRates = 53, 3, 1047, 625, C
+Rate = 23, 23, 583, 645, C
+Common = 368, 155, 1183, 778, C
+TrackingRates = 92, 92, 652, 714, C
+OneStar = 93, 157, 1440, 736, C

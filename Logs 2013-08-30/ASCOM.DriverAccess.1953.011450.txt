@@ -1,0 +1,1974 @@
+19:53:01.146 AscomDriver               Successfully created TraceLogger
+19:53:01.147 AscomDriver               Device ProgID: SS2K.Telescope
+19:53:01.147 AscomDriver               Device type: Telescope
+19:53:01.148 ProgID                    SS2K.Telescope
+19:53:01.148 IsComObject               True
+19:53:01.204                           
+19:53:01.204 InterfaceVersion Get      GET InterfaceVersion - COM
+19:53:01.204 InterfaceVersion Get        2
+19:53:01.204 Telescope                 Platform 5 Telescope: False Platform 6 Telescope: False
+19:53:01.215 Connected Set             Issuing Connected command: True
+19:53:01.215                           
+19:53:01.215 Connected Set             SET Connected - COM
+19:53:01.215 Connected Set               True
+19:53:03.581                           
+19:53:03.581 CanMoveAxis               Start
+19:53:03.581 CanMoveAxis                 Parameter: axisPrimary
+19:53:03.581 CanMoveAxis                 Calling CanMoveAxis - it is a COM object
+19:53:03.582 CanMoveAxis                 True
+19:53:03.584 AxisRates                 
+19:53:03.584 AxisRates                 axisPrimary
+19:53:03.584 AxisRates                 Platform 5/6 COM Telescope
+19:53:03.585 AxisRates Class           Created object: System.__ComObject for axis: axisPrimary
+19:53:03.585 AxisRates Class           Count(axisPrimary) = 2
+19:53:03.585 AxisRates Class           Count(axisPrimary) = 2
+19:53:03.586 AxisRates Class           Axis: axisPrimary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.586 AxisRates Class           Axis: axisPrimary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.586 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.586 AxisRates Class           Count(axisPrimary) = 2
+19:53:03.586 AxisRates Class           Axis: axisPrimary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.586 AxisRates Class           Axis: axisPrimary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.586 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.586 AxisRates Class           Count(axisPrimary) = 2
+19:53:03.586 AxisRates                 
+19:53:03.586 AxisRates                 axisSecondary
+19:53:03.586 AxisRates                 Platform 5/6 COM Telescope
+19:53:03.587 AxisRates Class           Created object: System.__ComObject for axis: axisSecondary
+19:53:03.587 AxisRates Class           Count(axisSecondary) = 2
+19:53:03.587 AxisRates Class           Count(axisSecondary) = 2
+19:53:03.587 AxisRates Class           Axis: axisSecondary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.587 AxisRates Class           Axis: axisSecondary- returned rate 1 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.587 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.587 AxisRates Class           Count(axisSecondary) = 2
+19:53:03.587 AxisRates Class           Axis: axisSecondary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.587 AxisRates Class           Axis: axisSecondary- returned rate 2 = Minimum: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.587 AxisRates                 Found Minimim: 0.00208903730827575, Maximum: 0.00208903730827575
+19:53:03.587 AxisRates Class           Count(axisSecondary) = 2
+19:53:03.587 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:53:03.615 AxisRates Class           GetEnumerator(axisSecondary): Returning rate enumerator
+19:53:03.615                           
+19:53:03.615 SideOfPier Get            GET SideOfPier - COM
+19:53:03.618 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Property (Get)SideOfPier is not implemented in this driver.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 243
+19:53:03.619 SideOfPier Get              Translating COM not implemented exception to PropertyNotImplementedException: SS2K.Telescope SideOfPier
+19:53:03.620                           
+19:53:03.620 CanSetPierSide Get        GET CanSetPierSide - COM
+19:53:03.620 CanSetPierSide Get          False
+19:53:03.621 Connected Get             Issuing Connected command
+19:53:03.621                           
+19:53:03.621 Connected Get             GET Connected - COM
+19:53:03.621 Connected Get               True
+19:53:03.621                           
+19:53:03.621 CanSlew Get               GET CanSlew - COM
+19:53:03.621 CanSlew Get                 True
+19:53:03.633                           
+19:53:03.633 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:03.633 CanSlewAsync Get            True
+19:53:03.634                           
+19:53:03.634 RightAscension Get        GET RightAscension - COM
+19:53:03.710 RightAscension Get          16.5636111111111
+19:53:03.710                           
+19:53:03.710 Declination Get           GET Declination - COM
+19:53:03.806 Declination Get             -26.4586111111111
+19:53:03.806                           
+19:53:03.806 SiderealTime Get          GET SiderealTime - COM
+19:53:03.883 SiderealTime Get            18.1808333333333
+19:53:03.883                           
+19:53:03.883 SiderealTime Get          GET SiderealTime - COM
+19:53:03.963 SiderealTime Get            18.1808333333333
+19:53:04.677                           
+19:53:04.677 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:04.677 CanSlewAsync Get            True
+19:53:04.677                           
+19:53:04.677 RightAscension Get        GET RightAscension - COM
+19:53:04.746 RightAscension Get          16.5638888888889
+19:53:04.746                           
+19:53:04.746 Declination Get           GET Declination - COM
+19:53:04.843 Declination Get             -26.4586111111111
+19:53:04.843                           
+19:53:04.843 SiderealTime Get          GET SiderealTime - COM
+19:53:04.923 SiderealTime Get            18.1811111111111
+19:53:04.923                           
+19:53:04.923 SiderealTime Get          GET SiderealTime - COM
+19:53:05.003 SiderealTime Get            18.1811111111111
+19:53:05.711                           
+19:53:05.711 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:05.711 CanSlewAsync Get            True
+19:53:05.711                           
+19:53:05.711 RightAscension Get        GET RightAscension - COM
+19:53:05.786 RightAscension Get          16.5641666666667
+19:53:05.786                           
+19:53:05.787 Declination Get           GET Declination - COM
+19:53:05.883 Declination Get             -26.4586111111111
+19:53:05.883                           
+19:53:05.883 SiderealTime Get          GET SiderealTime - COM
+19:53:05.962 SiderealTime Get            18.1813888888889
+19:53:05.962                           
+19:53:05.962 SiderealTime Get          GET SiderealTime - COM
+19:53:06.042 SiderealTime Get            18.1813888888889
+19:53:06.754                           
+19:53:06.754 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:06.754 CanSlewAsync Get            True
+19:53:06.754                           
+19:53:06.754 RightAscension Get        GET RightAscension - COM
+19:53:06.824 RightAscension Get          16.5644444444444
+19:53:06.824                           
+19:53:06.825 Declination Get           GET Declination - COM
+19:53:06.905 Declination Get             -26.4586111111111
+19:53:06.905                           
+19:53:06.906 SiderealTime Get          GET SiderealTime - COM
+19:53:06.985 SiderealTime Get            18.1816666666667
+19:53:06.985                           
+19:53:06.985 SiderealTime Get          GET SiderealTime - COM
+19:53:07.065 SiderealTime Get            18.1819444444444
+19:53:07.777                           
+19:53:07.777 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:07.777 CanSlewAsync Get            True
+19:53:07.777                           
+19:53:07.777 RightAscension Get        GET RightAscension - COM
+19:53:07.864 RightAscension Get          16.5647222222222
+19:53:07.865                           
+19:53:07.865 Declination Get           GET Declination - COM
+19:53:07.942 Declination Get             -26.4586111111111
+19:53:07.942                           
+19:53:07.943 SiderealTime Get          GET SiderealTime - COM
+19:53:08.023 SiderealTime Get            18.1819444444444
+19:53:08.023                           
+19:53:08.023 SiderealTime Get          GET SiderealTime - COM
+19:53:08.103 SiderealTime Get            18.1822222222222
+19:53:08.813                           
+19:53:08.813 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:08.813 CanSlewAsync Get            True
+19:53:08.813                           
+19:53:08.813 RightAscension Get        GET RightAscension - COM
+19:53:08.902 RightAscension Get          16.565
+19:53:08.902                           
+19:53:08.902 Declination Get           GET Declination - COM
+19:53:08.982 Declination Get             -26.4586111111111
+19:53:08.982                           
+19:53:08.983 SiderealTime Get          GET SiderealTime - COM
+19:53:09.062 SiderealTime Get            18.1825
+19:53:09.062                           
+19:53:09.062 SiderealTime Get          GET SiderealTime - COM
+19:53:09.142 SiderealTime Get            18.1825
+19:53:09.856                           
+19:53:09.856 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:09.856 CanSlewAsync Get            True
+19:53:09.856                           
+19:53:09.856 RightAscension Get        GET RightAscension - COM
+19:53:09.940 RightAscension Get          16.5652777777778
+19:53:09.940                           
+19:53:09.941 Declination Get           GET Declination - COM
+19:53:10.019 Declination Get             -26.4586111111111
+19:53:10.019                           
+19:53:10.019 SiderealTime Get          GET SiderealTime - COM
+19:53:10.067 SiderealTime Get            18.1827777777778
+19:53:10.068                           
+19:53:10.068 SiderealTime Get          GET SiderealTime - COM
+19:53:10.147 SiderealTime Get            18.1827777777778
+19:53:10.856                           
+19:53:10.856 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:10.856 CanSlewAsync Get            True
+19:53:10.856                           
+19:53:10.856 RightAscension Get        GET RightAscension - COM
+19:53:10.948 RightAscension Get          16.5655555555556
+19:53:10.948                           
+19:53:10.948 Declination Get           GET Declination - COM
+19:53:11.058 Declination Get             -26.4586111111111
+19:53:11.059                           
+19:53:11.059 SiderealTime Get          GET SiderealTime - COM
+19:53:11.114 SiderealTime Get            18.1830555555556
+19:53:11.114                           
+19:53:11.114 SiderealTime Get          GET SiderealTime - COM
+19:53:11.238 SiderealTime Get            18.1830555555556
+19:53:11.951                           
+19:53:11.951 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:11.951 CanSlewAsync Get            True
+19:53:11.951                           
+19:53:11.951 RightAscension Get        GET RightAscension - COM
+19:53:12.032 RightAscension Get          16.5658333333333
+19:53:12.032                           
+19:53:12.032 Declination Get           GET Declination - COM
+19:53:12.112 Declination Get             -26.4586111111111
+19:53:12.112                           
+19:53:12.112 SiderealTime Get          GET SiderealTime - COM
+19:53:12.176 SiderealTime Get            18.1833333333333
+19:53:12.176                           
+19:53:12.176 SiderealTime Get          GET SiderealTime - COM
+19:53:12.256 SiderealTime Get            18.1833333333333
+19:53:12.971                           
+19:53:12.971 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:12.971 CanSlewAsync Get            True
+19:53:12.971                           
+19:53:12.971 RightAscension Get        GET RightAscension - COM
+19:53:13.056 RightAscension Get          16.5661111111111
+19:53:13.056                           
+19:53:13.057 Declination Get           GET Declination - COM
+19:53:13.136 Declination Get             -26.4586111111111
+19:53:13.136                           
+19:53:13.136 SiderealTime Get          GET SiderealTime - COM
+19:53:13.184 SiderealTime Get            18.1836111111111
+19:53:13.184                           
+19:53:13.184 SiderealTime Get          GET SiderealTime - COM
+19:53:13.264 SiderealTime Get            18.1836111111111
+19:53:13.973                           
+19:53:13.973 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:13.973 CanSlewAsync Get            True
+19:53:13.973                           
+19:53:13.973 RightAscension Get        GET RightAscension - COM
+19:53:14.046 RightAscension Get          16.5663888888889
+19:53:14.046                           
+19:53:14.046 Declination Get           GET Declination - COM
+19:53:14.143 Declination Get             -26.4586111111111
+19:53:14.143                           
+19:53:14.143 SiderealTime Get          GET SiderealTime - COM
+19:53:14.223 SiderealTime Get            18.1838888888889
+19:53:14.223                           
+19:53:14.223 SiderealTime Get          GET SiderealTime - COM
+19:53:14.303 SiderealTime Get            18.1838888888889
+19:53:15.012                           
+19:53:15.012 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:15.012 CanSlewAsync Get            True
+19:53:15.012                           
+19:53:15.012 RightAscension Get        GET RightAscension - COM
+19:53:15.085 RightAscension Get          16.5666666666667
+19:53:15.085                           
+19:53:15.086 Declination Get           GET Declination - COM
+19:53:15.181 Declination Get             -26.4586111111111
+19:53:15.181                           
+19:53:15.181 SiderealTime Get          GET SiderealTime - COM
+19:53:15.261 SiderealTime Get            18.1841666666667
+19:53:15.261                           
+19:53:15.261 SiderealTime Get          GET SiderealTime - COM
+19:53:15.341 SiderealTime Get            18.1841666666667
+19:53:15.989 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:53:15.999 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:53:15.999                           
+19:53:15.999 MoveAxis                  Start
+19:53:15.999 MoveAxis                    Parameter: axisPrimary
+19:53:15.999 MoveAxis                    Parameter: -0.00208903730827575
+19:53:15.999 MoveAxis                    Calling MoveAxis - it is a COM object
+19:53:16.035 MoveAxis                    Successfully called method, no return value
+19:53:16.049                           
+19:53:16.049 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:16.049 CanSlewAsync Get            True
+19:53:16.049                           
+19:53:16.049 RightAscension Get        GET RightAscension - COM
+19:53:16.220 RightAscension Get          16.5669444444444
+19:53:16.220                           
+19:53:16.221 Declination Get           GET Declination - COM
+19:53:16.300 Declination Get             -26.4586111111111
+19:53:16.300                           
+19:53:16.301 SiderealTime Get          GET SiderealTime - COM
+19:53:16.364 SiderealTime Get            18.1844444444444
+19:53:16.364                           
+19:53:16.364 SiderealTime Get          GET SiderealTime - COM
+19:53:16.444 SiderealTime Get            18.1844444444444
+19:53:17.052                           
+19:53:17.052 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:17.052 CanSlewAsync Get            True
+19:53:17.052                           
+19:53:17.052 RightAscension Get        GET RightAscension - COM
+19:53:17.131 RightAscension Get          16.5672222222222
+19:53:17.131                           
+19:53:17.132 Declination Get           GET Declination - COM
+19:53:17.210 Declination Get             -26.4586111111111
+19:53:17.210                           
+19:53:17.210 SiderealTime Get          GET SiderealTime - COM
+19:53:17.274 SiderealTime Get            18.1847222222222
+19:53:17.274                           
+19:53:17.274 SiderealTime Get          GET SiderealTime - COM
+19:53:17.354 SiderealTime Get            18.1847222222222
+19:53:18.067                           
+19:53:18.067 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:18.067 CanSlewAsync Get            True
+19:53:18.067                           
+19:53:18.067 RightAscension Get        GET RightAscension - COM
+19:53:18.137 RightAscension Get          16.5675
+19:53:18.137                           
+19:53:18.138 Declination Get           GET Declination - COM
+19:53:18.217 Declination Get             -26.4586111111111
+19:53:18.217                           
+19:53:18.217 SiderealTime Get          GET SiderealTime - COM
+19:53:18.281 SiderealTime Get            18.185
+19:53:18.281                           
+19:53:18.281 SiderealTime Get          GET SiderealTime - COM
+19:53:18.345 SiderealTime Get            18.185
+19:53:18.970                           
+19:53:18.970 Slewing Get               GET Slewing - COM
+19:53:19.287 Slewing Get                 True
+19:53:19.287 AbortSlew                 Calling method
+19:53:19.287                           
+19:53:19.287 AbortSlew                 Start
+19:53:19.287 AbortSlew                   Calling AbortSlew - it is a COM object
+19:53:19.303                           
+19:53:19.303 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:19.308 CanSlewAsync Get            True
+19:53:19.308                           
+19:53:19.308 RightAscension Get        GET RightAscension - COM
+19:53:19.414 RightAscension Get          16.5677777777778
+19:53:19.414                           
+19:53:19.414 Declination Get           GET Declination - COM
+19:53:19.494 Declination Get             -26.4586111111111
+19:53:19.495                           
+19:53:19.495 SiderealTime Get          GET SiderealTime - COM
+19:53:19.575 SiderealTime Get            18.1852777777778
+19:53:19.575                           
+19:53:19.575 SiderealTime Get          GET SiderealTime - COM
+19:53:19.654 SiderealTime Get            18.1852777777778
+19:53:20.309                           
+19:53:20.309 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:20.375 CanSlewAsync Get            True
+19:53:20.375                           
+19:53:20.375 RightAscension Get        GET RightAscension - COM
+19:53:20.453 RightAscension Get          16.6177777777778
+19:53:20.453                           
+19:53:20.454 Declination Get           GET Declination - COM
+19:53:20.549 Declination Get             -25.1280555555556
+19:53:20.549                           
+19:53:20.549 SiderealTime Get          GET SiderealTime - COM
+19:53:20.598 SiderealTime Get            18.1855555555556
+19:53:20.598                           
+19:53:20.598 SiderealTime Get          GET SiderealTime - COM
+19:53:20.661 SiderealTime Get            18.1855555555556
+19:53:21.343                           
+19:53:21.343 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:21.365 CanSlewAsync Get            True
+19:53:21.365                           
+19:53:21.365 RightAscension Get        GET RightAscension - COM
+19:53:21.493 RightAscension Get          16.8675
+19:53:21.493                           
+19:53:21.494 Declination Get           GET Declination - COM
+19:53:21.589 Declination Get             -21.2533333333333
+19:53:21.589                           
+19:53:21.589 SiderealTime Get          GET SiderealTime - COM
+19:53:21.668 SiderealTime Get            18.1858333333333
+19:53:21.668                           
+19:53:21.668 SiderealTime Get          GET SiderealTime - COM
+19:53:21.748 SiderealTime Get            18.1858333333333
+19:53:22.310 AbortSlew                   Successfully called method, no return value
+19:53:22.310 AbortSlew                 Finished
+19:53:22.310                           
+19:53:22.310 MoveAxis                  Start
+19:53:22.310 MoveAxis                    Parameter: axisPrimary
+19:53:22.310 MoveAxis                    Parameter: 0
+19:53:22.310 MoveAxis                    Calling MoveAxis - it is a COM object
+19:53:22.316 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:53:22.318 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:53:22.419                           
+19:53:22.419 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:22.419 CanSlewAsync Get            True
+19:53:22.419                           
+19:53:22.419 RightAscension Get        GET RightAscension - COM
+19:53:22.532 RightAscension Get          17.1663888888889
+19:53:22.533                           
+19:53:22.533 Declination Get           GET Declination - COM
+19:53:22.628 Declination Get             -17.8905555555556
+19:53:22.628                           
+19:53:22.628 SiderealTime Get          GET SiderealTime - COM
+19:53:22.692 SiderealTime Get            18.1861111111111
+19:53:22.692                           
+19:53:22.692 SiderealTime Get          GET SiderealTime - COM
+19:53:22.770 SiderealTime Get            18.1861111111111
+19:53:23.485                           
+19:53:23.485 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:23.485 CanSlewAsync Get            True
+19:53:23.485                           
+19:53:23.485 RightAscension Get        GET RightAscension - COM
+19:53:23.569 RightAscension Get          17.4216666666667
+19:53:23.569                           
+19:53:23.570 Declination Get           GET Declination - COM
+19:53:23.649 Declination Get             -13.9144444444444
+19:53:23.649                           
+19:53:23.649 SiderealTime Get          GET SiderealTime - COM
+19:53:23.729 SiderealTime Get            18.1863888888889
+19:53:23.729                           
+19:53:23.729 SiderealTime Get          GET SiderealTime - COM
+19:53:23.810 SiderealTime Get            18.1863888888889
+19:53:24.525                           
+19:53:24.525 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:24.525 CanSlewAsync Get            True
+19:53:24.525                           
+19:53:24.525 RightAscension Get        GET RightAscension - COM
+19:53:24.609 RightAscension Get          17.7219444444444
+19:53:24.609                           
+19:53:24.610 Declination Get           GET Declination - COM
+19:53:24.689 Declination Get             -10.5108333333333
+19:53:24.689                           
+19:53:24.689 SiderealTime Get          GET SiderealTime - COM
+19:53:24.769 SiderealTime Get            18.1866666666667
+19:53:24.769                           
+19:53:24.769 SiderealTime Get          GET SiderealTime - COM
+19:53:24.847 SiderealTime Get            18.1866666666667
+19:53:25.562                           
+19:53:25.562 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:25.562 CanSlewAsync Get            True
+19:53:25.562                           
+19:53:25.562 RightAscension Get        GET RightAscension - COM
+19:53:25.646 RightAscension Get          17.9769444444444
+19:53:25.646                           
+19:53:25.646 Declination Get           GET Declination - COM
+19:53:25.726 Declination Get             -6.47416666666667
+19:53:25.726                           
+19:53:25.726 SiderealTime Get          GET SiderealTime - COM
+19:53:25.774 SiderealTime Get            18.1869444444444
+19:53:25.774                           
+19:53:25.774 SiderealTime Get          GET SiderealTime - COM
+19:53:25.854 SiderealTime Get            18.1869444444444
+19:53:26.569                           
+19:53:26.569 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:26.569 CanSlewAsync Get            True
+19:53:26.569                           
+19:53:26.569 RightAscension Get        GET RightAscension - COM
+19:53:26.654 RightAscension Get          18.23
+19:53:26.655                           
+19:53:26.655 Declination Get           GET Declination - COM
+19:53:26.732 Declination Get             -3.03527777777778
+19:53:26.732                           
+19:53:26.732 SiderealTime Get          GET SiderealTime - COM
+19:53:26.812 SiderealTime Get            18.1872222222222
+19:53:26.812                           
+19:53:26.812 SiderealTime Get          GET SiderealTime - COM
+19:53:26.892 SiderealTime Get            18.1872222222222
+19:53:26.894 Connected Get             Issuing Connected command
+19:53:26.894                           
+19:53:26.894 Connected Get             GET Connected - COM
+19:53:26.894 Connected Get               True
+19:53:26.894 AbortSlew                 Calling method
+19:53:26.894                           
+19:53:26.894 AbortSlew                 Start
+19:53:26.894 AbortSlew                   Calling AbortSlew - it is a COM object
+19:53:27.670                           
+19:53:27.670 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:27.725 CanSlewAsync Get            True
+19:53:27.725                           
+19:53:27.725 RightAscension Get        GET RightAscension - COM
+19:53:27.819 RightAscension Get          18.3805555555556
+19:53:27.819                           
+19:53:27.820 Declination Get           GET Declination - COM
+19:53:27.899 Declination Get             -1.59416666666667
+19:53:27.899                           
+19:53:27.899 SiderealTime Get          GET SiderealTime - COM
+19:53:27.964 SiderealTime Get            18.1875
+19:53:27.964                           
+19:53:27.964 SiderealTime Get          GET SiderealTime - COM
+19:53:28.075 SiderealTime Get            18.1877777777778
+19:53:28.794                           
+19:53:28.794 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:28.838 CanSlewAsync Get            True
+19:53:28.838                           
+19:53:28.838 RightAscension Get        GET RightAscension - COM
+19:53:28.938 RightAscension Get          18.3808333333333
+19:53:28.938                           
+19:53:28.939 Declination Get           GET Declination - COM
+19:53:28.939 Connected Get             Issuing Connected command
+19:53:28.939                           
+19:53:28.940 Connected Get             GET Connected - COM
+19:53:28.940 Connected Get               True
+19:53:28.940 AbortSlew                 Calling method
+19:53:28.940                           
+19:53:28.940 AbortSlew                 Start
+19:53:28.940 AbortSlew                   Calling AbortSlew - it is a COM object
+19:53:29.099 Declination Get             -1.59416666666667
+19:53:29.100                           
+19:53:29.100 SiderealTime Get          GET SiderealTime - COM
+19:53:29.178 SiderealTime Get            18.1880555555556
+19:53:29.178                           
+19:53:29.178 SiderealTime Get          GET SiderealTime - COM
+19:53:29.259 SiderealTime Get            18.1880555555556
+19:53:29.261 Connected Get             Issuing Connected command
+19:53:29.261                           
+19:53:29.261 Connected Get             GET Connected - COM
+19:53:29.261 Connected Get               True
+19:53:29.261 AbortSlew                 Calling method
+19:53:29.261                           
+19:53:29.261 AbortSlew                 Start
+19:53:29.262 AbortSlew                   Calling AbortSlew - it is a COM object
+19:53:29.439 Connected Get             Issuing Connected command
+19:53:29.439                           
+19:53:29.439 Connected Get             GET Connected - COM
+19:53:29.439 Connected Get               True
+19:53:29.439 AbortSlew                 Calling method
+19:53:29.439                           
+19:53:29.439 AbortSlew                 Start
+19:53:29.439 AbortSlew                   Calling AbortSlew - it is a COM object
+19:53:29.797                           
+19:53:29.797 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:29.830 Connected Get             Issuing Connected command
+19:53:29.831                           
+19:53:29.831 Connected Get             GET Connected - COM
+19:53:29.831 Connected Get               True
+19:53:29.831 AbortSlew                 Calling method
+19:53:29.831                           
+19:53:29.831 AbortSlew                 Start
+19:53:29.831 AbortSlew                   Calling AbortSlew - it is a COM object
+19:53:29.858 CanSlewAsync Get            True
+19:53:29.858                           
+19:53:29.858 RightAscension Get        GET RightAscension - COM
+19:53:29.961 RightAscension Get          18.3811111111111
+19:53:29.962                           
+19:53:29.962 Declination Get           GET Declination - COM
+19:53:30.056 Declination Get             -1.59416666666667
+19:53:30.056                           
+19:53:30.056 SiderealTime Get          GET SiderealTime - COM
+19:53:30.137 SiderealTime Get            18.1883333333333
+19:53:30.137                           
+19:53:30.137 SiderealTime Get          GET SiderealTime - COM
+19:53:30.201 SiderealTime Get            18.1883333333333
+19:53:30.856                           
+19:53:30.856 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:30.889 CanSlewAsync Get            True
+19:53:30.889                           
+19:53:30.889 RightAscension Get        GET RightAscension - COM
+19:53:31.016 RightAscension Get          18.3816666666667
+19:53:31.016                           
+19:53:31.017 Declination Get           GET Declination - COM
+19:53:31.080 Declination Get             -1.59416666666667
+19:53:31.080                           
+19:53:31.080 SiderealTime Get          GET SiderealTime - COM
+19:53:31.159 SiderealTime Get            18.1886111111111
+19:53:31.159                           
+19:53:31.159 SiderealTime Get          GET SiderealTime - COM
+19:53:31.255 SiderealTime Get            18.1886111111111
+19:53:31.987                           
+19:53:31.987 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:32.020 CanSlewAsync Get            True
+19:53:32.020                           
+19:53:32.020 RightAscension Get        GET RightAscension - COM
+19:53:32.133 RightAscension Get          18.3819444444444
+19:53:32.133                           
+19:53:32.134 Declination Get           GET Declination - COM
+19:53:32.214 Declination Get             -1.59416666666667
+19:53:32.214                           
+19:53:32.214 SiderealTime Get          GET SiderealTime - COM
+19:53:32.293 SiderealTime Get            18.1888888888889
+19:53:32.293                           
+19:53:32.293 SiderealTime Get          GET SiderealTime - COM
+19:53:32.390 SiderealTime Get            18.1888888888889
+19:53:32.836 AbortSlew                   Successfully called method, no return value
+19:53:32.836 AbortSlew                 Finished
+19:53:32.836                           
+19:53:32.836 Slewing Get               GET Slewing - COM
+19:53:32.836 Slewing Get                 False
+19:53:32.836                           
+19:53:32.836 MoveAxis                  Start
+19:53:32.837 MoveAxis                    Parameter: axisPrimary
+19:53:32.837 MoveAxis                    Parameter: 0
+19:53:32.837 MoveAxis                    Calling MoveAxis - it is a COM object
+19:53:32.844 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:53:32.845 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:53:32.846 AbortSlew                   Successfully called method, no return value
+19:53:32.846 AbortSlew                 Finished
+19:53:32.846                           
+19:53:32.846 Slewing Get               GET Slewing - COM
+19:53:32.846 Slewing Get                 False
+19:53:32.846                           
+19:53:32.846 MoveAxis                  Start
+19:53:32.846 MoveAxis                    Parameter: axisPrimary
+19:53:32.846 MoveAxis                    Parameter: 0
+19:53:32.846 MoveAxis                    Calling MoveAxis - it is a COM object
+19:53:32.852 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:53:32.853 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:53:32.854 AbortSlew                   Successfully called method, no return value
+19:53:32.854 AbortSlew                 Finished
+19:53:32.854                           
+19:53:32.854 Slewing Get               GET Slewing - COM
+19:53:32.854 Slewing Get                 False
+19:53:32.854                           
+19:53:32.854 MoveAxis                  Start
+19:53:32.854 MoveAxis                    Parameter: axisPrimary
+19:53:32.854 MoveAxis                    Parameter: 0
+19:53:32.854 MoveAxis                    Calling MoveAxis - it is a COM object
+19:53:32.860 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:53:32.861 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:53:32.861 AbortSlew                   Successfully called method, no return value
+19:53:32.861 AbortSlew                 Finished
+19:53:32.861                           
+19:53:32.861 Slewing Get               GET Slewing - COM
+19:53:32.861 Slewing Get                 False
+19:53:32.861                           
+19:53:32.861 MoveAxis                  Start
+19:53:32.861 MoveAxis                    Parameter: axisPrimary
+19:53:32.861 MoveAxis                    Parameter: 0
+19:53:32.861 MoveAxis                    Calling MoveAxis - it is a COM object
+19:53:32.867 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:53:32.868 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:53:32.868 AbortSlew                   Successfully called method, no return value
+19:53:32.868 AbortSlew                 Finished
+19:53:32.868                           
+19:53:32.868 Slewing Get               GET Slewing - COM
+19:53:32.868 Slewing Get                 False
+19:53:32.868                           
+19:53:32.868 MoveAxis                  Start
+19:53:32.868 MoveAxis                    Parameter: axisPrimary
+19:53:32.868 MoveAxis                    Parameter: 0
+19:53:32.868 MoveAxis                    Calling MoveAxis - it is a COM object
+19:53:32.874 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:53:32.875 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:53:33.005                           
+19:53:33.005 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:33.005 CanSlewAsync Get            True
+19:53:33.005                           
+19:53:33.005 RightAscension Get        GET RightAscension - COM
+19:53:33.172 RightAscension Get          18.3819444444444
+19:53:33.172                           
+19:53:33.173 Declination Get           GET Declination - COM
+19:53:33.252 Declination Get             -1.59416666666667
+19:53:33.252                           
+19:53:33.252 SiderealTime Get          GET SiderealTime - COM
+19:53:33.331 SiderealTime Get            18.1891666666667
+19:53:33.331                           
+19:53:33.331 SiderealTime Get          GET SiderealTime - COM
+19:53:33.411 SiderealTime Get            18.1891666666667
+19:53:34.018                           
+19:53:34.018 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:34.018 CanSlewAsync Get            True
+19:53:34.018                           
+19:53:34.018 RightAscension Get        GET RightAscension - COM
+19:53:34.131 RightAscension Get          18.3819444444444
+19:53:34.131                           
+19:53:34.132 Declination Get           GET Declination - COM
+19:53:34.211 Declination Get             -1.59416666666667
+19:53:34.211                           
+19:53:34.211 SiderealTime Get          GET SiderealTime - COM
+19:53:34.258 SiderealTime Get            18.1894444444444
+19:53:34.258                           
+19:53:34.258 SiderealTime Get          GET SiderealTime - COM
+19:53:34.338 SiderealTime Get            18.1894444444444
+19:53:35.051                           
+19:53:35.051 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:35.051 CanSlewAsync Get            True
+19:53:35.051                           
+19:53:35.051 RightAscension Get        GET RightAscension - COM
+19:53:35.121 RightAscension Get          18.3819444444444
+19:53:35.121                           
+19:53:35.121 Declination Get           GET Declination - COM
+19:53:35.217 Declination Get             -1.59416666666667
+19:53:35.217                           
+19:53:35.217 SiderealTime Get          GET SiderealTime - COM
+19:53:35.297 SiderealTime Get            18.1897222222222
+19:53:35.297                           
+19:53:35.297 SiderealTime Get          GET SiderealTime - COM
+19:53:35.376 SiderealTime Get            18.1897222222222
+19:53:36.089                           
+19:53:36.089 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:36.089 CanSlewAsync Get            True
+19:53:36.089                           
+19:53:36.089 RightAscension Get        GET RightAscension - COM
+19:53:36.176 RightAscension Get          18.3819444444444
+19:53:36.176                           
+19:53:36.177 Declination Get           GET Declination - COM
+19:53:36.256 Declination Get             -1.59416666666667
+19:53:36.256                           
+19:53:36.256 SiderealTime Get          GET SiderealTime - COM
+19:53:36.336 SiderealTime Get            18.19
+19:53:36.336                           
+19:53:36.336 SiderealTime Get          GET SiderealTime - COM
+19:53:36.400 SiderealTime Get            18.19
+19:53:37.115                           
+19:53:37.115 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:37.115 CanSlewAsync Get            True
+19:53:37.115                           
+19:53:37.115 RightAscension Get        GET RightAscension - COM
+19:53:37.199 RightAscension Get          18.3819444444444
+19:53:37.199                           
+19:53:37.200 Declination Get           GET Declination - COM
+19:53:37.295 Declination Get             -1.59416666666667
+19:53:37.295                           
+19:53:37.295 SiderealTime Get          GET SiderealTime - COM
+19:53:37.375 SiderealTime Get            18.1902777777778
+19:53:37.375                           
+19:53:37.375 SiderealTime Get          GET SiderealTime - COM
+19:53:37.439 SiderealTime Get            18.1902777777778
+19:53:38.147                           
+19:53:38.147 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:38.147 CanSlewAsync Get            True
+19:53:38.147                           
+19:53:38.147 RightAscension Get        GET RightAscension - COM
+19:53:38.238 RightAscension Get          18.3819444444444
+19:53:38.238                           
+19:53:38.239 Declination Get           GET Declination - COM
+19:53:38.335 Declination Get             -1.59416666666667
+19:53:38.335                           
+19:53:38.335 SiderealTime Get          GET SiderealTime - COM
+19:53:38.413 SiderealTime Get            18.1905555555556
+19:53:38.413                           
+19:53:38.413 SiderealTime Get          GET SiderealTime - COM
+19:53:38.477 SiderealTime Get            18.1905555555556
+19:53:39.190                           
+19:53:39.190 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:39.190 CanSlewAsync Get            True
+19:53:39.190                           
+19:53:39.190 RightAscension Get        GET RightAscension - COM
+19:53:39.276 RightAscension Get          18.3819444444444
+19:53:39.276                           
+19:53:39.277 Declination Get           GET Declination - COM
+19:53:39.356 Declination Get             -1.59416666666667
+19:53:39.356                           
+19:53:39.356 SiderealTime Get          GET SiderealTime - COM
+19:53:39.436 SiderealTime Get            18.1908333333333
+19:53:39.436                           
+19:53:39.436 SiderealTime Get          GET SiderealTime - COM
+19:53:39.532 SiderealTime Get            18.1908333333333
+19:53:40.245                           
+19:53:40.245 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:40.245 CanSlewAsync Get            True
+19:53:40.246                           
+19:53:40.246 RightAscension Get        GET RightAscension - COM
+19:53:40.330 RightAscension Get          18.3819444444444
+19:53:40.330                           
+19:53:40.331 Declination Get           GET Declination - COM
+19:53:40.410 Declination Get             -1.59416666666667
+19:53:40.410                           
+19:53:40.410 SiderealTime Get          GET SiderealTime - COM
+19:53:40.474 SiderealTime Get            18.1911111111111
+19:53:40.474                           
+19:53:40.474 SiderealTime Get          GET SiderealTime - COM
+19:53:40.570 SiderealTime Get            18.1911111111111
+19:53:41.283                           
+19:53:41.283 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:41.283 CanSlewAsync Get            True
+19:53:41.283                           
+19:53:41.283 RightAscension Get        GET RightAscension - COM
+19:53:41.369 RightAscension Get          18.3819444444444
+19:53:41.369                           
+19:53:41.370 Declination Get           GET Declination - COM
+19:53:41.448 Declination Get             -1.59416666666667
+19:53:41.448                           
+19:53:41.448 SiderealTime Get          GET SiderealTime - COM
+19:53:41.512 SiderealTime Get            18.1913888888889
+19:53:41.512                           
+19:53:41.512 SiderealTime Get          GET SiderealTime - COM
+19:53:41.560 SiderealTime Get            18.1913888888889
+19:53:42.374                           
+19:53:42.374 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:42.374 CanSlewAsync Get            True
+19:53:42.374                           
+19:53:42.374 RightAscension Get        GET RightAscension - COM
+19:53:42.471 RightAscension Get          18.3819444444444
+19:53:42.471                           
+19:53:42.472 Declination Get           GET Declination - COM
+19:53:42.551 Declination Get             -1.59416666666667
+19:53:42.551                           
+19:53:42.551 SiderealTime Get          GET SiderealTime - COM
+19:53:42.647 SiderealTime Get            18.1916666666667
+19:53:42.647                           
+19:53:42.647 SiderealTime Get          GET SiderealTime - COM
+19:53:42.727 SiderealTime Get            18.1916666666667
+19:53:43.440                           
+19:53:43.440 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:43.440 CanSlewAsync Get            True
+19:53:43.440                           
+19:53:43.440 RightAscension Get        GET RightAscension - COM
+19:53:43.509 RightAscension Get          18.3819444444444
+19:53:43.509                           
+19:53:43.510 Declination Get           GET Declination - COM
+19:53:43.589 Declination Get             -1.59416666666667
+19:53:43.589                           
+19:53:43.590 SiderealTime Get          GET SiderealTime - COM
+19:53:43.653 SiderealTime Get            18.1919444444444
+19:53:43.653                           
+19:53:43.653 SiderealTime Get          GET SiderealTime - COM
+19:53:43.733 SiderealTime Get            18.1919444444444
+19:53:44.451                           
+19:53:44.451 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:44.451 CanSlewAsync Get            True
+19:53:44.451                           
+19:53:44.451 RightAscension Get        GET RightAscension - COM
+19:53:44.548 RightAscension Get          18.3819444444444
+19:53:44.548                           
+19:53:44.549 Declination Get           GET Declination - COM
+19:53:44.628 Declination Get             -1.59416666666667
+19:53:44.628                           
+19:53:44.629 SiderealTime Get          GET SiderealTime - COM
+19:53:44.692 SiderealTime Get            18.1922222222222
+19:53:44.692                           
+19:53:44.692 SiderealTime Get          GET SiderealTime - COM
+19:53:44.772 SiderealTime Get            18.1922222222222
+19:53:45.486                           
+19:53:45.486 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:45.486 CanSlewAsync Get            True
+19:53:45.486                           
+19:53:45.486 RightAscension Get        GET RightAscension - COM
+19:53:45.587 RightAscension Get          18.3816666666667
+19:53:45.587                           
+19:53:45.588 Declination Get           GET Declination - COM
+19:53:45.683 Declination Get             -1.59416666666667
+19:53:45.683                           
+19:53:45.683 SiderealTime Get          GET SiderealTime - COM
+19:53:45.731 SiderealTime Get            18.1925
+19:53:45.731                           
+19:53:45.731 SiderealTime Get          GET SiderealTime - COM
+19:53:45.811 SiderealTime Get            18.1925
+19:53:46.526                           
+19:53:46.526 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:46.526 CanSlewAsync Get            True
+19:53:46.526                           
+19:53:46.526 RightAscension Get        GET RightAscension - COM
+19:53:46.642 RightAscension Get          18.3819444444444
+19:53:46.643                           
+19:53:46.643 Declination Get           GET Declination - COM
+19:53:46.722 Declination Get             -1.59416666666667
+19:53:46.722                           
+19:53:46.722 SiderealTime Get          GET SiderealTime - COM
+19:53:46.770 SiderealTime Get            18.1927777777778
+19:53:46.770                           
+19:53:46.770 SiderealTime Get          GET SiderealTime - COM
+19:53:46.849 SiderealTime Get            18.1927777777778
+19:53:47.564                           
+19:53:47.564 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:47.564 CanSlewAsync Get            True
+19:53:47.564                           
+19:53:47.564 RightAscension Get        GET RightAscension - COM
+19:53:47.647 RightAscension Get          18.3816666666667
+19:53:47.647                           
+19:53:47.648 Declination Get           GET Declination - COM
+19:53:47.759 Declination Get             -1.59416666666667
+19:53:47.759                           
+19:53:47.759 SiderealTime Get          GET SiderealTime - COM
+19:53:47.807 SiderealTime Get            18.1930555555556
+19:53:47.807                           
+19:53:47.807 SiderealTime Get          GET SiderealTime - COM
+19:53:47.887 SiderealTime Get            18.1930555555556
+19:53:48.602                           
+19:53:48.602 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:48.602 CanSlewAsync Get            True
+19:53:48.602                           
+19:53:48.602 RightAscension Get        GET RightAscension - COM
+19:53:48.671 RightAscension Get          18.3816666666667
+19:53:48.671                           
+19:53:48.672 Declination Get           GET Declination - COM
+19:53:48.767 Declination Get             -1.59416666666667
+19:53:48.767                           
+19:53:48.767 SiderealTime Get          GET SiderealTime - COM
+19:53:48.847 SiderealTime Get            18.1933333333333
+19:53:48.847                           
+19:53:48.847 SiderealTime Get          GET SiderealTime - COM
+19:53:48.927 SiderealTime Get            18.1933333333333
+19:53:49.641                           
+19:53:49.641 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:49.641 CanSlewAsync Get            True
+19:53:49.641                           
+19:53:49.641 RightAscension Get        GET RightAscension - COM
+19:53:49.724 RightAscension Get          18.3816666666667
+19:53:49.724                           
+19:53:49.725 Declination Get           GET Declination - COM
+19:53:49.804 Declination Get             -1.59416666666667
+19:53:49.804                           
+19:53:49.805 SiderealTime Get          GET SiderealTime - COM
+19:53:49.868 SiderealTime Get            18.1936111111111
+19:53:49.868                           
+19:53:49.868 SiderealTime Get          GET SiderealTime - COM
+19:53:49.948 SiderealTime Get            18.1936111111111
+19:53:50.656                           
+19:53:50.656 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:50.656 CanSlewAsync Get            True
+19:53:50.656                           
+19:53:50.656 RightAscension Get        GET RightAscension - COM
+19:53:50.747 RightAscension Get          18.3816666666667
+19:53:50.747                           
+19:53:50.748 Declination Get           GET Declination - COM
+19:53:50.843 Declination Get             -1.59416666666667
+19:53:50.843                           
+19:53:50.843 SiderealTime Get          GET SiderealTime - COM
+19:53:50.907 SiderealTime Get            18.1938888888889
+19:53:50.907                           
+19:53:50.907 SiderealTime Get          GET SiderealTime - COM
+19:53:50.987 SiderealTime Get            18.1938888888889
+19:53:51.700                           
+19:53:51.700 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:51.700 CanSlewAsync Get            True
+19:53:51.700                           
+19:53:51.700 RightAscension Get        GET RightAscension - COM
+19:53:51.786 RightAscension Get          18.3819444444444
+19:53:51.786                           
+19:53:51.787 Declination Get           GET Declination - COM
+19:53:51.882 Declination Get             -1.59416666666667
+19:53:51.882                           
+19:53:51.882 SiderealTime Get          GET SiderealTime - COM
+19:53:51.951 SiderealTime Get            18.1941666666667
+19:53:51.951                           
+19:53:51.951 SiderealTime Get          GET SiderealTime - COM
+19:53:52.057 SiderealTime Get            18.1941666666667
+19:53:52.767                           
+19:53:52.767 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:52.767 CanSlewAsync Get            True
+19:53:52.767                           
+19:53:52.767 RightAscension Get        GET RightAscension - COM
+19:53:52.874 RightAscension Get          18.3816666666667
+19:53:52.875                           
+19:53:52.875 Declination Get           GET Declination - COM
+19:53:52.954 Declination Get             -1.59416666666667
+19:53:52.954                           
+19:53:52.954 SiderealTime Get          GET SiderealTime - COM
+19:53:53.002 SiderealTime Get            18.1944444444444
+19:53:53.002                           
+19:53:53.002 SiderealTime Get          GET SiderealTime - COM
+19:53:53.080 SiderealTime Get            18.1947222222222
+19:53:53.794                           
+19:53:53.794 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:53.794 CanSlewAsync Get            True
+19:53:53.794                           
+19:53:53.794 RightAscension Get        GET RightAscension - COM
+19:53:53.880 RightAscension Get          18.3816666666667
+19:53:53.880                           
+19:53:53.881 Declination Get           GET Declination - COM
+19:53:53.960 Declination Get             -1.59416666666667
+19:53:53.960                           
+19:53:53.960 SiderealTime Get          GET SiderealTime - COM
+19:53:54.024 SiderealTime Get            18.1947222222222
+19:53:54.024                           
+19:53:54.024 SiderealTime Get          GET SiderealTime - COM
+19:53:54.104 SiderealTime Get            18.195
+19:53:54.817                           
+19:53:54.817 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:54.817 CanSlewAsync Get            True
+19:53:54.817                           
+19:53:54.817 RightAscension Get        GET RightAscension - COM
+19:53:54.902 RightAscension Get          18.3816666666667
+19:53:54.902                           
+19:53:54.903 Declination Get           GET Declination - COM
+19:53:54.982 Declination Get             -1.59416666666667
+19:53:54.982                           
+19:53:54.982 SiderealTime Get          GET SiderealTime - COM
+19:53:55.062 SiderealTime Get            18.1952777777778
+19:53:55.062                           
+19:53:55.062 SiderealTime Get          GET SiderealTime - COM
+19:53:55.158 SiderealTime Get            18.1952777777778
+19:53:55.871                           
+19:53:55.871 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:55.871 CanSlewAsync Get            True
+19:53:55.871                           
+19:53:55.871 RightAscension Get        GET RightAscension - COM
+19:53:55.956 RightAscension Get          18.3816666666667
+19:53:55.956                           
+19:53:55.957 Declination Get           GET Declination - COM
+19:53:56.036 Declination Get             -1.59416666666667
+19:53:56.036                           
+19:53:56.036 SiderealTime Get          GET SiderealTime - COM
+19:53:56.100 SiderealTime Get            18.1955555555556
+19:53:56.100                           
+19:53:56.100 SiderealTime Get          GET SiderealTime - COM
+19:53:56.180 SiderealTime Get            18.1955555555556
+19:53:56.893                           
+19:53:56.893 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:56.893 CanSlewAsync Get            True
+19:53:56.893                           
+19:53:56.893 RightAscension Get        GET RightAscension - COM
+19:53:56.979 RightAscension Get          18.3816666666667
+19:53:56.979                           
+19:53:56.980 Declination Get           GET Declination - COM
+19:53:57.059 Declination Get             -1.59416666666667
+19:53:57.059                           
+19:53:57.059 SiderealTime Get          GET SiderealTime - COM
+19:53:57.107 SiderealTime Get            18.1958333333333
+19:53:57.107                           
+19:53:57.107 SiderealTime Get          GET SiderealTime - COM
+19:53:57.187 SiderealTime Get            18.1958333333333
+19:53:57.900                           
+19:53:57.900 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:57.900 CanSlewAsync Get            True
+19:53:57.900                           
+19:53:57.900 RightAscension Get        GET RightAscension - COM
+19:53:57.985 RightAscension Get          18.3819444444444
+19:53:57.985                           
+19:53:57.986 Declination Get           GET Declination - COM
+19:53:58.065 Declination Get             -1.59416666666667
+19:53:58.065                           
+19:53:58.065 SiderealTime Get          GET SiderealTime - COM
+19:53:58.145 SiderealTime Get            18.1961111111111
+19:53:58.145                           
+19:53:58.145 SiderealTime Get          GET SiderealTime - COM
+19:53:58.225 SiderealTime Get            18.1961111111111
+19:53:58.934                           
+19:53:58.934 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:58.934 CanSlewAsync Get            True
+19:53:58.934                           
+19:53:58.934 RightAscension Get        GET RightAscension - COM
+19:53:59.024 RightAscension Get          18.3816666666667
+19:53:59.025                           
+19:53:59.025 Declination Get           GET Declination - COM
+19:53:59.104 Declination Get             -1.59416666666667
+19:53:59.104                           
+19:53:59.105 SiderealTime Get          GET SiderealTime - COM
+19:53:59.184 SiderealTime Get            18.1963888888889
+19:53:59.184                           
+19:53:59.184 SiderealTime Get          GET SiderealTime - COM
+19:53:59.264 SiderealTime Get            18.1963888888889
+19:53:59.978                           
+19:53:59.978 CanSlewAsync Get          GET CanSlewAsync - COM
+19:53:59.978 CanSlewAsync Get            True
+19:53:59.978                           
+19:53:59.978 RightAscension Get        GET RightAscension - COM
+19:54:00.063 RightAscension Get          18.3819444444444
+19:54:00.063                           
+19:54:00.064 Declination Get           GET Declination - COM
+19:54:00.143 Declination Get             -1.59416666666667
+19:54:00.143                           
+19:54:00.143 SiderealTime Get          GET SiderealTime - COM
+19:54:00.223 SiderealTime Get            18.1966666666667
+19:54:00.223                           
+19:54:00.223 SiderealTime Get          GET SiderealTime - COM
+19:54:00.302 SiderealTime Get            18.1966666666667
+19:54:01.011                           
+19:54:01.011 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:01.011 CanSlewAsync Get            True
+19:54:01.011                           
+19:54:01.011 RightAscension Get        GET RightAscension - COM
+19:54:01.086 RightAscension Get          18.3816666666667
+19:54:01.086                           
+19:54:01.087 Declination Get           GET Declination - COM
+19:54:01.182 Declination Get             -1.59416666666667
+19:54:01.182                           
+19:54:01.182 SiderealTime Get          GET SiderealTime - COM
+19:54:01.262 SiderealTime Get            18.1969444444444
+19:54:01.262                           
+19:54:01.262 SiderealTime Get          GET SiderealTime - COM
+19:54:01.342 SiderealTime Get            18.1969444444444
+19:54:02.056                           
+19:54:02.056 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:02.056 CanSlewAsync Get            True
+19:54:02.056                           
+19:54:02.056 RightAscension Get        GET RightAscension - COM
+19:54:02.125 RightAscension Get          18.3816666666667
+19:54:02.125                           
+19:54:02.126 Declination Get           GET Declination - COM
+19:54:02.205 Declination Get             -1.59416666666667
+19:54:02.205                           
+19:54:02.206 SiderealTime Get          GET SiderealTime - COM
+19:54:02.268 SiderealTime Get            18.1972222222222
+19:54:02.268                           
+19:54:02.268 SiderealTime Get          GET SiderealTime - COM
+19:54:02.315 SiderealTime Get            18.1972222222222
+19:54:03.129                           
+19:54:03.129 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:03.129 CanSlewAsync Get            True
+19:54:03.129                           
+19:54:03.129 RightAscension Get        GET RightAscension - COM
+19:54:03.228 RightAscension Get          18.3816666666667
+19:54:03.228                           
+19:54:03.228 Declination Get           GET Declination - COM
+19:54:03.339 Declination Get             -1.59416666666667
+19:54:03.339                           
+19:54:03.339 SiderealTime Get          GET SiderealTime - COM
+19:54:03.419 SiderealTime Get            18.1975
+19:54:03.419                           
+19:54:03.419 SiderealTime Get          GET SiderealTime - COM
+19:54:03.499 SiderealTime Get            18.1975
+19:54:04.207                           
+19:54:04.207 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:04.207 CanSlewAsync Get            True
+19:54:04.207                           
+19:54:04.207 RightAscension Get        GET RightAscension - COM
+19:54:04.297 RightAscension Get          18.3816666666667
+19:54:04.297                           
+19:54:04.298 Declination Get           GET Declination - COM
+19:54:04.393 Declination Get             -1.59416666666667
+19:54:04.393                           
+19:54:04.393 SiderealTime Get          GET SiderealTime - COM
+19:54:04.456 SiderealTime Get            18.1977777777778
+19:54:04.456                           
+19:54:04.456 SiderealTime Get          GET SiderealTime - COM
+19:54:04.536 SiderealTime Get            18.1977777777778
+19:54:05.249                           
+19:54:05.249 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:05.249 CanSlewAsync Get            True
+19:54:05.249                           
+19:54:05.249 RightAscension Get        GET RightAscension - COM
+19:54:05.336 RightAscension Get          18.3816666666667
+19:54:05.336                           
+19:54:05.337 Declination Get           GET Declination - COM
+19:54:05.432 Declination Get             -1.59416666666667
+19:54:05.432                           
+19:54:05.432 SiderealTime Get          GET SiderealTime - COM
+19:54:05.496 SiderealTime Get            18.1980555555556
+19:54:05.496                           
+19:54:05.496 SiderealTime Get          GET SiderealTime - COM
+19:54:05.576 SiderealTime Get            18.1980555555556
+19:54:06.284                           
+19:54:06.284 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:06.284 CanSlewAsync Get            True
+19:54:06.284                           
+19:54:06.284 RightAscension Get        GET RightAscension - COM
+19:54:06.375 RightAscension Get          18.3816666666667
+19:54:06.375                           
+19:54:06.376 Declination Get           GET Declination - COM
+19:54:06.453 Declination Get             -1.59416666666667
+19:54:06.453                           
+19:54:06.453 SiderealTime Get          GET SiderealTime - COM
+19:54:06.533 SiderealTime Get            18.1983333333333
+19:54:06.533                           
+19:54:06.533 SiderealTime Get          GET SiderealTime - COM
+19:54:06.613 SiderealTime Get            18.1983333333333
+19:54:07.326                           
+19:54:07.326 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:07.326 CanSlewAsync Get            True
+19:54:07.326                           
+19:54:07.326 RightAscension Get        GET RightAscension - COM
+19:54:07.413 RightAscension Get          18.3819444444444
+19:54:07.414                           
+19:54:07.414 Declination Get           GET Declination - COM
+19:54:07.509 Declination Get             -1.59416666666667
+19:54:07.509                           
+19:54:07.509 SiderealTime Get          GET SiderealTime - COM
+19:54:07.572 SiderealTime Get            18.1986111111111
+19:54:07.572                           
+19:54:07.572 SiderealTime Get          GET SiderealTime - COM
+19:54:07.652 SiderealTime Get            18.1986111111111
+19:54:08.362                           
+19:54:08.362 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:08.362 CanSlewAsync Get            True
+19:54:08.362                           
+19:54:08.362 RightAscension Get        GET RightAscension - COM
+19:54:08.452 RightAscension Get          18.3816666666667
+19:54:08.452                           
+19:54:08.453 Declination Get           GET Declination - COM
+19:54:08.532 Declination Get             -1.59416666666667
+19:54:08.532                           
+19:54:08.532 SiderealTime Get          GET SiderealTime - COM
+19:54:08.612 SiderealTime Get            18.1988888888889
+19:54:08.612                           
+19:54:08.612 SiderealTime Get          GET SiderealTime - COM
+19:54:08.692 SiderealTime Get            18.1988888888889
+19:54:09.411                           
+19:54:09.411 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:09.411 CanSlewAsync Get            True
+19:54:09.411                           
+19:54:09.411 RightAscension Get        GET RightAscension - COM
+19:54:09.491 RightAscension Get          18.3816666666667
+19:54:09.491                           
+19:54:09.492 Declination Get           GET Declination - COM
+19:54:09.571 Declination Get             -1.59416666666667
+19:54:09.571                           
+19:54:09.571 SiderealTime Get          GET SiderealTime - COM
+19:54:09.619 SiderealTime Get            18.1991666666667
+19:54:09.619                           
+19:54:09.619 SiderealTime Get          GET SiderealTime - COM
+19:54:09.697 SiderealTime Get            18.1991666666667
+19:54:10.414                           
+19:54:10.414 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:10.414 CanSlewAsync Get            True
+19:54:10.414                           
+19:54:10.414 RightAscension Get        GET RightAscension - COM
+19:54:10.496 RightAscension Get          18.3819444444444
+19:54:10.496                           
+19:54:10.497 Declination Get           GET Declination - COM
+19:54:10.576 Declination Get             -1.59416666666667
+19:54:10.576                           
+19:54:10.576 SiderealTime Get          GET SiderealTime - COM
+19:54:10.656 SiderealTime Get            18.1994444444444
+19:54:10.656                           
+19:54:10.656 SiderealTime Get          GET SiderealTime - COM
+19:54:10.736 SiderealTime Get            18.1994444444444
+19:54:11.449                           
+19:54:11.449 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:11.449 CanSlewAsync Get            True
+19:54:11.449                           
+19:54:11.449 RightAscension Get        GET RightAscension - COM
+19:54:11.535 RightAscension Get          18.3816666666667
+19:54:11.535                           
+19:54:11.536 Declination Get           GET Declination - COM
+19:54:11.615 Declination Get             -1.59416666666667
+19:54:11.615                           
+19:54:11.615 SiderealTime Get          GET SiderealTime - COM
+19:54:11.694 SiderealTime Get            18.1997222222222
+19:54:11.694                           
+19:54:11.694 SiderealTime Get          GET SiderealTime - COM
+19:54:11.774 SiderealTime Get            18.1997222222222
+19:54:12.492                           
+19:54:12.492 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:12.492 CanSlewAsync Get            True
+19:54:12.492                           
+19:54:12.492 RightAscension Get        GET RightAscension - COM
+19:54:12.573 RightAscension Get          18.3816666666667
+19:54:12.573                           
+19:54:12.574 Declination Get           GET Declination - COM
+19:54:12.653 Declination Get             -1.59416666666667
+19:54:12.653                           
+19:54:12.653 SiderealTime Get          GET SiderealTime - COM
+19:54:12.733 SiderealTime Get            18.2
+19:54:12.733                           
+19:54:12.733 SiderealTime Get          GET SiderealTime - COM
+19:54:12.813 SiderealTime Get            18.2
+19:54:13.531                           
+19:54:13.531 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:13.531 CanSlewAsync Get            True
+19:54:13.531                           
+19:54:13.531 RightAscension Get        GET RightAscension - COM
+19:54:13.613 RightAscension Get          18.3816666666667
+19:54:13.614                           
+19:54:13.614 Declination Get           GET Declination - COM
+19:54:13.693 Declination Get             -1.59416666666667
+19:54:13.693                           
+19:54:13.693 SiderealTime Get          GET SiderealTime - COM
+19:54:13.771 SiderealTime Get            18.2002777777778
+19:54:13.771                           
+19:54:13.771 SiderealTime Get          GET SiderealTime - COM
+19:54:13.852 SiderealTime Get            18.2002777777778
+19:54:14.565                           
+19:54:14.565 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:14.565 CanSlewAsync Get            True
+19:54:14.565                           
+19:54:14.565 RightAscension Get        GET RightAscension - COM
+19:54:14.634 RightAscension Get          18.3819444444444
+19:54:14.634                           
+19:54:14.635 Declination Get           GET Declination - COM
+19:54:14.698 Declination Get             -1.59416666666667
+19:54:14.698                           
+19:54:14.698 SiderealTime Get          GET SiderealTime - COM
+19:54:14.762 SiderealTime Get            18.2005555555556
+19:54:14.762                           
+19:54:14.762 SiderealTime Get          GET SiderealTime - COM
+19:54:14.826 SiderealTime Get            18.2005555555556
+19:54:15.641                           
+19:54:15.641 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:15.641 CanSlewAsync Get            True
+19:54:15.641                           
+19:54:15.641 RightAscension Get        GET RightAscension - COM
+19:54:15.737 RightAscension Get          18.3816666666667
+19:54:15.738                           
+19:54:15.738 Declination Get           GET Declination - COM
+19:54:15.817 Declination Get             -1.59416666666667
+19:54:15.817                           
+19:54:15.817 SiderealTime Get          GET SiderealTime - COM
+19:54:15.881 SiderealTime Get            18.2008333333333
+19:54:15.881                           
+19:54:15.881 SiderealTime Get          GET SiderealTime - COM
+19:54:15.945 SiderealTime Get            18.2008333333333
+19:54:16.660                           
+19:54:16.660 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:16.660 CanSlewAsync Get            True
+19:54:16.660                           
+19:54:16.660 RightAscension Get        GET RightAscension - COM
+19:54:16.729 RightAscension Get          18.3819444444444
+19:54:16.729                           
+19:54:16.730 Declination Get           GET Declination - COM
+19:54:16.793 Declination Get             -1.59416666666667
+19:54:16.793                           
+19:54:16.793 SiderealTime Get          GET SiderealTime - COM
+19:54:16.857 SiderealTime Get            18.2011111111111
+19:54:16.857                           
+19:54:16.857 SiderealTime Get          GET SiderealTime - COM
+19:54:16.937 SiderealTime Get            18.2011111111111
+19:54:17.747                           
+19:54:17.747 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:17.747 CanSlewAsync Get            True
+19:54:17.747                           
+19:54:17.747 RightAscension Get        GET RightAscension - COM
+19:54:17.830 RightAscension Get          18.3819444444444
+19:54:17.830                           
+19:54:17.831 Declination Get           GET Declination - COM
+19:54:17.910 Declination Get             -1.59416666666667
+19:54:17.910                           
+19:54:17.911 SiderealTime Get          GET SiderealTime - COM
+19:54:17.974 SiderealTime Get            18.2013888888889
+19:54:17.974                           
+19:54:17.974 SiderealTime Get          GET SiderealTime - COM
+19:54:18.022 SiderealTime Get            18.2013888888889
+19:54:18.836                           
+19:54:18.836 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:18.836 CanSlewAsync Get            True
+19:54:18.836                           
+19:54:18.836 RightAscension Get        GET RightAscension - COM
+19:54:18.933 RightAscension Get          18.3819444444444
+19:54:18.934                           
+19:54:18.934 Declination Get           GET Declination - COM
+19:54:19.013 Declination Get             -1.59416666666667
+19:54:19.013                           
+19:54:19.013 SiderealTime Get          GET SiderealTime - COM
+19:54:19.061 SiderealTime Get            18.2019444444444
+19:54:19.061                           
+19:54:19.061 SiderealTime Get          GET SiderealTime - COM
+19:54:19.141 SiderealTime Get            18.2019444444444
+19:54:19.855                           
+19:54:19.855 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:19.855 CanSlewAsync Get            True
+19:54:19.855                           
+19:54:19.855 RightAscension Get        GET RightAscension - COM
+19:54:19.923 RightAscension Get          18.3819444444444
+19:54:19.923                           
+19:54:19.924 Declination Get           GET Declination - COM
+19:54:20.003 Declination Get             -1.59416666666667
+19:54:20.003                           
+19:54:20.004 SiderealTime Get          GET SiderealTime - COM
+19:54:20.083 SiderealTime Get            18.2022222222222
+19:54:20.083                           
+19:54:20.083 SiderealTime Get          GET SiderealTime - COM
+19:54:20.163 SiderealTime Get            18.2022222222222
+19:54:20.876                           
+19:54:20.876 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:20.876 CanSlewAsync Get            True
+19:54:20.876                           
+19:54:20.876 RightAscension Get        GET RightAscension - COM
+19:54:20.963 RightAscension Get          18.3816666666667
+19:54:20.963                           
+19:54:20.963 Declination Get           GET Declination - COM
+19:54:21.043 Declination Get             -1.59416666666667
+19:54:21.043                           
+19:54:21.043 SiderealTime Get          GET SiderealTime - COM
+19:54:21.089 SiderealTime Get            18.2025
+19:54:21.089                           
+19:54:21.089 SiderealTime Get          GET SiderealTime - COM
+19:54:21.153 SiderealTime Get            18.2025
+19:54:21.969                           
+19:54:21.969 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:21.969 CanSlewAsync Get            True
+19:54:21.969                           
+19:54:21.969 RightAscension Get        GET RightAscension - COM
+19:54:22.082 RightAscension Get          18.3816666666667
+19:54:22.082                           
+19:54:22.082 Declination Get           GET Declination - COM
+19:54:22.161 Declination Get             -1.59416666666667
+19:54:22.161                           
+19:54:22.161 SiderealTime Get          GET SiderealTime - COM
+19:54:22.241 SiderealTime Get            18.2027777777778
+19:54:22.241                           
+19:54:22.241 SiderealTime Get          GET SiderealTime - COM
+19:54:22.321 SiderealTime Get            18.2027777777778
+19:54:23.034                           
+19:54:23.034 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:23.034 CanSlewAsync Get            True
+19:54:23.034                           
+19:54:23.034 RightAscension Get        GET RightAscension - COM
+19:54:23.124 RightAscension Get          18.3819444444444
+19:54:23.124                           
+19:54:23.124 Declination Get           GET Declination - COM
+19:54:23.199 Declination Get             -1.59416666666667
+19:54:23.199                           
+19:54:23.200 SiderealTime Get          GET SiderealTime - COM
+19:54:23.279 SiderealTime Get            18.2030555555556
+19:54:23.279                           
+19:54:23.279 SiderealTime Get          GET SiderealTime - COM
+19:54:23.359 SiderealTime Get            18.2030555555556
+19:54:24.069                           
+19:54:24.069 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:24.069 CanSlewAsync Get            True
+19:54:24.069                           
+19:54:24.069 RightAscension Get        GET RightAscension - COM
+19:54:24.158 RightAscension Get          18.3816666666667
+19:54:24.158                           
+19:54:24.159 Declination Get           GET Declination - COM
+19:54:24.238 Declination Get             -1.59416666666667
+19:54:24.238                           
+19:54:24.239 SiderealTime Get          GET SiderealTime - COM
+19:54:24.286 SiderealTime Get            18.2033333333333
+19:54:24.286                           
+19:54:24.286 SiderealTime Get          GET SiderealTime - COM
+19:54:24.366 SiderealTime Get            18.2033333333333
+19:54:25.080                           
+19:54:25.080 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:25.080 CanSlewAsync Get            True
+19:54:25.080                           
+19:54:25.080 RightAscension Get        GET RightAscension - COM
+19:54:25.165 RightAscension Get          18.3819444444444
+19:54:25.165                           
+19:54:25.166 Declination Get           GET Declination - COM
+19:54:25.245 Declination Get             -1.59416666666667
+19:54:25.246                           
+19:54:25.246 SiderealTime Get          GET SiderealTime - COM
+19:54:25.325 SiderealTime Get            18.2036111111111
+19:54:25.325                           
+19:54:25.325 SiderealTime Get          GET SiderealTime - COM
+19:54:25.405 SiderealTime Get            18.2036111111111
+19:54:26.115                           
+19:54:26.115 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:26.115 CanSlewAsync Get            True
+19:54:26.115                           
+19:54:26.115 RightAscension Get        GET RightAscension - COM
+19:54:26.217 RightAscension Get          18.3816666666667
+19:54:26.217                           
+19:54:26.217 Declination Get           GET Declination - COM
+19:54:26.322 Declination Get             -1.59416666666667
+19:54:26.322                           
+19:54:26.322 SiderealTime Get          GET SiderealTime - COM
+19:54:27.106 SiderealTime Get            18.2038888888889
+19:54:27.106                           
+19:54:27.106 SiderealTime Get          GET SiderealTime - COM
+19:54:27.199 SiderealTime Get            18.2041666666667
+19:54:27.294                           
+19:54:27.294 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:27.319 CanSlewAsync Get            True
+19:54:27.319                           
+19:54:27.319 RightAscension Get        GET RightAscension - COM
+19:54:27.440 RightAscension Get          18.3819444444444
+19:54:27.440                           
+19:54:27.441 Declination Get           GET Declination - COM
+19:54:27.535 Declination Get             -1.59416666666667
+19:54:27.535                           
+19:54:27.535 SiderealTime Get          GET SiderealTime - COM
+19:54:27.666 SiderealTime Get            18.2041666666667
+19:54:27.666                           
+19:54:27.666 SiderealTime Get          GET SiderealTime - COM
+19:54:27.771 SiderealTime Get            18.2041666666667
+19:54:28.760                           
+19:54:28.760 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:28.763 CanSlewAsync Get            True
+19:54:28.763                           
+19:54:28.763 RightAscension Get        GET RightAscension - COM
+19:54:28.857 RightAscension Get          18.3819444444444
+19:54:28.857                           
+19:54:28.857 Declination Get           GET Declination - COM
+19:54:28.935 Declination Get             -1.59416666666667
+19:54:28.935                           
+19:54:28.936 SiderealTime Get          GET SiderealTime - COM
+19:54:29.015 SiderealTime Get            18.2044444444444
+19:54:29.015                           
+19:54:29.015 SiderealTime Get          GET SiderealTime - COM
+19:54:29.095 SiderealTime Get            18.2047222222222
+19:54:29.825                           
+19:54:29.825 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:29.825 CanSlewAsync Get            True
+19:54:29.825                           
+19:54:29.825 RightAscension Get        GET RightAscension - COM
+19:54:29.893 RightAscension Get          18.3816666666667
+19:54:29.893                           
+19:54:29.894 Declination Get           GET Declination - COM
+19:54:29.973 Declination Get             -1.59416666666667
+19:54:29.973                           
+19:54:29.973 SiderealTime Get          GET SiderealTime - COM
+19:54:30.053 SiderealTime Get            18.2047222222222
+19:54:30.053                           
+19:54:30.053 SiderealTime Get          GET SiderealTime - COM
+19:54:30.135 SiderealTime Get            18.205
+19:54:30.849                           
+19:54:30.849 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:30.849 CanSlewAsync Get            True
+19:54:30.849                           
+19:54:30.849 RightAscension Get        GET RightAscension - COM
+19:54:30.932 RightAscension Get          18.3819444444444
+19:54:30.932                           
+19:54:30.933 Declination Get           GET Declination - COM
+19:54:31.012 Declination Get             -1.59416666666667
+19:54:31.012                           
+19:54:31.012 SiderealTime Get          GET SiderealTime - COM
+19:54:31.092 SiderealTime Get            18.2052777777778
+19:54:31.092                           
+19:54:31.092 SiderealTime Get          GET SiderealTime - COM
+19:54:31.172 SiderealTime Get            18.2052777777778
+19:54:31.881                           
+19:54:31.881 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:31.881 CanSlewAsync Get            True
+19:54:31.881                           
+19:54:31.881 RightAscension Get        GET RightAscension - COM
+19:54:31.972 RightAscension Get          18.3816666666667
+19:54:31.972                           
+19:54:31.973 Declination Get           GET Declination - COM
+19:54:32.052 Declination Get             -1.59416666666667
+19:54:32.052                           
+19:54:32.052 SiderealTime Get          GET SiderealTime - COM
+19:54:32.100 SiderealTime Get            18.2055555555556
+19:54:32.100                           
+19:54:32.100 SiderealTime Get          GET SiderealTime - COM
+19:54:32.179 SiderealTime Get            18.2055555555556
+19:54:32.893                           
+19:54:32.893 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:32.893 CanSlewAsync Get            True
+19:54:32.893                           
+19:54:32.893 RightAscension Get        GET RightAscension - COM
+19:54:32.979 RightAscension Get          18.3816666666667
+19:54:32.979                           
+19:54:32.980 Declination Get           GET Declination - COM
+19:54:33.059 Declination Get             -1.59416666666667
+19:54:33.059                           
+19:54:33.059 SiderealTime Get          GET SiderealTime - COM
+19:54:33.137 SiderealTime Get            18.2061111111111
+19:54:33.137                           
+19:54:33.137 SiderealTime Get          GET SiderealTime - COM
+19:54:33.138 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:33.138 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:33.138                           
+19:54:33.138 MoveAxis                  Start
+19:54:33.138 MoveAxis                    Parameter: axisPrimary
+19:54:33.138 MoveAxis                    Parameter: -0.00208903730827575
+19:54:33.138 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:33.150 MoveAxis                    Successfully called method, no return value
+19:54:33.298 SiderealTime Get            18.2061111111111
+19:54:33.423                           
+19:54:33.423 Slewing Get               GET Slewing - COM
+19:54:33.762 Slewing Get                 True
+19:54:33.762 AbortSlew                 Calling method
+19:54:33.762                           
+19:54:33.762 AbortSlew                 Start
+19:54:33.762 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:33.778 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:33.779 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:33.779                           
+19:54:33.779 MoveAxis                  Start
+19:54:33.779 MoveAxis                    Parameter: axisPrimary
+19:54:33.779 MoveAxis                    Parameter: -0.00208903730827575
+19:54:33.779 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:33.790 MoveAxis                    Successfully called method, no return value
+19:54:33.791                           
+19:54:33.791 Slewing Get               GET Slewing - COM
+19:54:34.225 Slewing Get                 True
+19:54:34.225 AbortSlew                 Calling method
+19:54:34.225                           
+19:54:34.225 AbortSlew                 Start
+19:54:34.225 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:34.241                           
+19:54:34.241 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:34.241 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:34.241 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:34.243 CanSlewAsync Get            True
+19:54:34.243                           
+19:54:34.243 RightAscension Get        GET RightAscension - COM
+19:54:34.383                           
+19:54:34.383 MoveAxis                  Start
+19:54:34.383 MoveAxis                    Parameter: axisPrimary
+19:54:34.383 MoveAxis                    Parameter: -0.00208903730827575
+19:54:34.383 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:34.395 MoveAxis                    Successfully called method, no return value
+19:54:34.395 RightAscension Get          18.3819444444444
+19:54:34.395                           
+19:54:34.395 Declination Get           GET Declination - COM
+19:54:34.396                           
+19:54:34.396 Slewing Get               GET Slewing - COM
+19:54:34.896 Slewing Get                 True
+19:54:34.896 AbortSlew                 Calling method
+19:54:34.896                           
+19:54:34.896 AbortSlew                 Start
+19:54:34.896 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:34.912 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:34.912 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:34.912                           
+19:54:34.912 MoveAxis                  Start
+19:54:34.912 MoveAxis                    Parameter: axisPrimary
+19:54:34.912 MoveAxis                    Parameter: -0.00208903730827575
+19:54:34.912 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:34.923 MoveAxis                    Successfully called method, no return value
+19:54:35.134 Declination Get             -1.59416666666667
+19:54:35.135                           
+19:54:35.135 SiderealTime Get          GET SiderealTime - COM
+19:54:35.136                           
+19:54:35.136 Slewing Get               GET Slewing - COM
+19:54:35.423 Slewing Get                 True
+19:54:35.423 AbortSlew                 Calling method
+19:54:35.423                           
+19:54:35.423 AbortSlew                 Start
+19:54:35.423 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:35.439 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:35.439 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:35.439                           
+19:54:35.439 MoveAxis                  Start
+19:54:35.439 MoveAxis                    Parameter: axisPrimary
+19:54:35.439 MoveAxis                    Parameter: -0.00208903730827575
+19:54:35.439 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:35.450 MoveAxis                    Successfully called method, no return value
+19:54:35.663 SiderealTime Get            18.2066666666667
+19:54:35.663                           
+19:54:35.663 SiderealTime Get          GET SiderealTime - COM
+19:54:35.664                           
+19:54:35.664 Slewing Get               GET Slewing - COM
+19:54:36.015 Slewing Get                 True
+19:54:36.015 AbortSlew                 Calling method
+19:54:36.015                           
+19:54:36.015 AbortSlew                 Start
+19:54:36.015 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:36.125 SiderealTime Get            18.2069444444444
+19:54:36.126                           
+19:54:36.126 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:36.126 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:36.126 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:36.126                           
+19:54:36.126 MoveAxis                  Start
+19:54:36.126 MoveAxis                    Parameter: axisPrimary
+19:54:36.126 MoveAxis                    Parameter: -0.00208903730827575
+19:54:36.126 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:36.138 MoveAxis                    Successfully called method, no return value
+19:54:36.139                           
+19:54:36.139 Slewing Get               GET Slewing - COM
+19:54:36.557 Slewing Get                 True
+19:54:36.557 AbortSlew                 Calling method
+19:54:36.557                           
+19:54:36.557 AbortSlew                 Start
+19:54:36.557 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:36.573 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:36.573 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:36.573                           
+19:54:36.573 MoveAxis                  Start
+19:54:36.573 MoveAxis                    Parameter: axisPrimary
+19:54:36.573 MoveAxis                    Parameter: -0.00208903730827575
+19:54:36.573 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:36.584 MoveAxis                    Successfully called method, no return value
+19:54:36.584 CanSlewAsync Get            True
+19:54:36.584                           
+19:54:36.584 RightAscension Get        GET RightAscension - COM
+19:54:36.797 RightAscension Get          18.3827777777778
+19:54:36.797                           
+19:54:36.797 Declination Get           GET Declination - COM
+19:54:36.798                           
+19:54:36.798 Slewing Get               GET Slewing - COM
+19:54:37.133 Slewing Get                 True
+19:54:37.133 AbortSlew                 Calling method
+19:54:37.133                           
+19:54:37.133 AbortSlew                 Start
+19:54:37.133 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:37.260 Declination Get             -1.59416666666667
+19:54:37.260                           
+19:54:37.260 SiderealTime Get          GET SiderealTime - COM
+19:54:37.324 SiderealTime Get            18.2072222222222
+19:54:37.324                           
+19:54:37.324 SiderealTime Get          GET SiderealTime - COM
+19:54:37.324 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:37.325 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:37.325                           
+19:54:37.325 MoveAxis                  Start
+19:54:37.325 MoveAxis                    Parameter: axisPrimary
+19:54:37.325 MoveAxis                    Parameter: -0.00208903730827575
+19:54:37.325 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:37.336 MoveAxis                    Successfully called method, no return value
+19:54:37.337                           
+19:54:37.337 Slewing Get               GET Slewing - COM
+19:54:37.755 Slewing Get                 True
+19:54:37.755 AbortSlew                 Calling method
+19:54:37.755                           
+19:54:37.755 AbortSlew                 Start
+19:54:37.755 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:37.771 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:37.771 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:37.771                           
+19:54:37.771 MoveAxis                  Start
+19:54:37.771 MoveAxis                    Parameter: axisPrimary
+19:54:37.771 MoveAxis                    Parameter: -0.00208903730827575
+19:54:37.771 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:37.781 MoveAxis                    Successfully called method, no return value
+19:54:37.962 SiderealTime Get            18.2072222222222
+19:54:37.964                           
+19:54:37.964 Slewing Get               GET Slewing - COM
+19:54:38.346 Slewing Get                 True
+19:54:38.346 AbortSlew                 Calling method
+19:54:38.346                           
+19:54:38.346 AbortSlew                 Start
+19:54:38.346 AbortSlew                   Calling AbortSlew - it is a COM object
+19:54:38.463                           
+19:54:38.463 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:38.485 CanSlewAsync Get            True
+19:54:38.485                           
+19:54:38.485 RightAscension Get        GET RightAscension - COM
+19:54:38.601 RightAscension Get          18.3830555555556
+19:54:38.601                           
+19:54:38.602 Declination Get           GET Declination - COM
+19:54:38.698 Declination Get             -1.59416666666667
+19:54:38.698                           
+19:54:38.698 SiderealTime Get          GET SiderealTime - COM
+19:54:38.794 SiderealTime Get            18.2075
+19:54:38.794                           
+19:54:38.794 SiderealTime Get          GET SiderealTime - COM
+19:54:38.873 SiderealTime Get            18.2075
+19:54:39.576                           
+19:54:39.576 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:39.631 CanSlewAsync Get            True
+19:54:39.631                           
+19:54:39.631 RightAscension Get        GET RightAscension - COM
+19:54:39.720 RightAscension Get          18.3836111111111
+19:54:39.720                           
+19:54:39.721 Declination Get           GET Declination - COM
+19:54:39.815 Declination Get             -1.59416666666667
+19:54:39.815                           
+19:54:39.815 SiderealTime Get          GET SiderealTime - COM
+19:54:39.912 SiderealTime Get            18.2077777777778
+19:54:39.912                           
+19:54:39.912 SiderealTime Get          GET SiderealTime - COM
+19:54:39.992 SiderealTime Get            18.2077777777778
+19:54:40.625                           
+19:54:40.625 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:40.636 CanSlewAsync Get            True
+19:54:40.636                           
+19:54:40.636 RightAscension Get        GET RightAscension - COM
+19:54:40.776 RightAscension Get          18.3836111111111
+19:54:40.777                           
+19:54:40.777 Declination Get           GET Declination - COM
+19:54:40.904 Declination Get             -1.59416666666667
+19:54:40.904                           
+19:54:40.904 SiderealTime Get          GET SiderealTime - COM
+19:54:40.952 SiderealTime Get            18.2080555555556
+19:54:40.952                           
+19:54:40.952 SiderealTime Get          GET SiderealTime - COM
+19:54:40.952 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:40.952 AxisRates Class           GetEnumerator(axisPrimary): Returning rate enumerator
+19:54:40.952                           
+19:54:40.953 MoveAxis                  Start
+19:54:40.953 MoveAxis                    Parameter: axisPrimary
+19:54:40.953 MoveAxis                    Parameter: -0.00208903730827575
+19:54:40.953 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:40.964 MoveAxis                    Successfully called method, no return value
+19:54:51.049 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: Timed out waiting for received data
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 243
+19:54:51.051 SiderealTime Get          COM Exception so throwing inner exception: 'Timed out waiting for received data' '0x80040402'
+19:54:51.054                           
+19:54:51.054 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:51.055 CanSlewAsync Get            True
+19:54:51.055                           
+19:54:51.055 RightAscension Get        GET RightAscension - COM
+19:54:51.144 RightAscension Get          18.385
+19:54:51.145                           
+19:54:51.145 Declination Get           GET Declination - COM
+19:54:51.256 Declination Get             -1.59416666666667
+19:54:51.256                           
+19:54:51.256 SiderealTime Get          GET SiderealTime - COM
+19:54:51.304 SiderealTime Get            18.2111111111111
+19:54:51.304                           
+19:54:51.304 SiderealTime Get          GET SiderealTime - COM
+19:54:51.368 SiderealTime Get            18.2111111111111
+19:54:51.534 AbortSlew                   Successfully called method, no return value
+19:54:51.534 AbortSlew                 Finished
+19:54:51.534                           
+19:54:51.534 MoveAxis                  Start
+19:54:51.534 MoveAxis                    Parameter: axisPrimary
+19:54:51.535 MoveAxis                    Parameter: 0
+19:54:51.535 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.541 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.543 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.543 AbortSlew                   Successfully called method, no return value
+19:54:51.543 AbortSlew                 Finished
+19:54:51.543                           
+19:54:51.543 MoveAxis                  Start
+19:54:51.543 MoveAxis                    Parameter: axisPrimary
+19:54:51.543 MoveAxis                    Parameter: 0
+19:54:51.543 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.549 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.550 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.551 AbortSlew                   Successfully called method, no return value
+19:54:51.551 AbortSlew                 Finished
+19:54:51.551                           
+19:54:51.551 MoveAxis                  Start
+19:54:51.551 MoveAxis                    Parameter: axisPrimary
+19:54:51.551 MoveAxis                    Parameter: 0
+19:54:51.551 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.557 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.559 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.559 AbortSlew                   Successfully called method, no return value
+19:54:51.559 AbortSlew                 Finished
+19:54:51.559                           
+19:54:51.559 MoveAxis                  Start
+19:54:51.559 MoveAxis                    Parameter: axisPrimary
+19:54:51.559 MoveAxis                    Parameter: 0
+19:54:51.559 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.565 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.566 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.566 AbortSlew                   Successfully called method, no return value
+19:54:51.566 AbortSlew                 Finished
+19:54:51.566                           
+19:54:51.566 MoveAxis                  Start
+19:54:51.566 MoveAxis                    Parameter: axisPrimary
+19:54:51.566 MoveAxis                    Parameter: 0
+19:54:51.566 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.572 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.573 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.573 AbortSlew                   Successfully called method, no return value
+19:54:51.573 AbortSlew                 Finished
+19:54:51.573                           
+19:54:51.573 MoveAxis                  Start
+19:54:51.573 MoveAxis                    Parameter: axisPrimary
+19:54:51.573 MoveAxis                    Parameter: 0
+19:54:51.573 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.579 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.580 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.580 AbortSlew                   Successfully called method, no return value
+19:54:51.580 AbortSlew                 Finished
+19:54:51.580                           
+19:54:51.580 MoveAxis                  Start
+19:54:51.580 MoveAxis                    Parameter: axisPrimary
+19:54:51.580 MoveAxis                    Parameter: 0
+19:54:51.580 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.587 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.588 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.589 AbortSlew                   Successfully called method, no return value
+19:54:51.589 AbortSlew                 Finished
+19:54:51.589                           
+19:54:51.589 MoveAxis                  Start
+19:54:51.589 MoveAxis                    Parameter: axisPrimary
+19:54:51.589 MoveAxis                    Parameter: 0
+19:54:51.589 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.596 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.597 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:51.597 AbortSlew                   Successfully called method, no return value
+19:54:51.597 AbortSlew                 Finished
+19:54:51.597                           
+19:54:51.597 MoveAxis                  Start
+19:54:51.597 MoveAxis                    Parameter: axisPrimary
+19:54:51.597 MoveAxis                    Parameter: 0
+19:54:51.597 MoveAxis                    Calling MoveAxis - it is a COM object
+19:54:51.604 TargetInvocationException System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.InteropServices.COMException: The Move Rate is more than an acceptable % away from the expected guide rate.
+   --- End of inner exception stack trace ---
+   at System.RuntimeType.InvokeDispMethod(String name, BindingFlags invokeAttr, Object target, Object[] args, Boolean[] byrefModifiers, Int32 culture, String[] namedParameters)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at System.Type.InvokeMember(String name, BindingFlags invokeAttr, Binder binder, Object target, Object[] args, CultureInfo culture)
+   at ASCOM.DriverAccess.MemberFactory.CallMember(Int32 memberCode, String memberName, Type[] parameterTypes, Object[] parms) in c:\ASCOM Build\Export\ASCOM.DriverAccess\MemberFactory.cs:line 443
+19:54:51.605 MoveAxis                    COM Exception so throwing inner exception: 'The Move Rate is more than an acceptable % away from the expected guide rate.' '0x80040417'
+19:54:52.111                           
+19:54:52.111 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:52.111 CanSlewAsync Get            True
+19:54:52.111                           
+19:54:52.111 RightAscension Get        GET RightAscension - COM
+19:54:52.216 RightAscension Get          18.3852777777778
+19:54:52.216                           
+19:54:52.217 Declination Get           GET Declination - COM
+19:54:52.296 Declination Get             -1.59416666666667
+19:54:52.296                           
+19:54:52.296 SiderealTime Get          GET SiderealTime - COM
+19:54:52.344 SiderealTime Get            18.2113888888889
+19:54:52.344                           
+19:54:52.344 SiderealTime Get          GET SiderealTime - COM
+19:54:52.407 SiderealTime Get            18.2113888888889
+19:54:53.121                           
+19:54:53.122 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:53.122 CanSlewAsync Get            True
+19:54:53.122                           
+19:54:53.122 RightAscension Get        GET RightAscension - COM
+19:54:53.222 RightAscension Get          18.3852777777778
+19:54:53.222                           
+19:54:53.223 Declination Get           GET Declination - COM
+19:54:53.302 Declination Get             -1.59416666666667
+19:54:53.302                           
+19:54:53.302 SiderealTime Get          GET SiderealTime - COM
+19:54:53.382 SiderealTime Get            18.2116666666667
+19:54:53.382                           
+19:54:53.382 SiderealTime Get          GET SiderealTime - COM
+19:54:53.446 SiderealTime Get            18.2116666666667
+19:54:54.159                           
+19:54:54.159 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:54.159 CanSlewAsync Get            True
+19:54:54.159                           
+19:54:54.159 RightAscension Get        GET RightAscension - COM
+19:54:54.244 RightAscension Get          18.3855555555556
+19:54:54.244                           
+19:54:54.244 Declination Get           GET Declination - COM
+19:54:54.340 Declination Get             -1.59416666666667
+19:54:54.340                           
+19:54:54.340 SiderealTime Get          GET SiderealTime - COM
+19:54:54.419 SiderealTime Get            18.2119444444444
+19:54:54.419                           
+19:54:54.419 SiderealTime Get          GET SiderealTime - COM
+19:54:54.483 SiderealTime Get            18.2119444444444
+19:54:55.192                           
+19:54:55.192 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:55.192 CanSlewAsync Get            True
+19:54:55.192                           
+19:54:55.192 RightAscension Get        GET RightAscension - COM
+19:54:55.282 RightAscension Get          18.3855555555556
+19:54:55.283                           
+19:54:55.283 Declination Get           GET Declination - COM
+19:54:55.363 Declination Get             -1.59416666666667
+19:54:55.363                           
+19:54:55.363 SiderealTime Get          GET SiderealTime - COM
+19:54:55.443 SiderealTime Get            18.2122222222222
+19:54:55.443                           
+19:54:55.443 SiderealTime Get          GET SiderealTime - COM
+19:54:55.539 SiderealTime Get            18.2122222222222
+19:54:56.253                           
+19:54:56.253 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:56.253 CanSlewAsync Get            True
+19:54:56.253                           
+19:54:56.253 RightAscension Get        GET RightAscension - COM
+19:54:56.338 RightAscension Get          18.3858333333333
+19:54:56.338                           
+19:54:56.339 Declination Get           GET Declination - COM
+19:54:56.418 Declination Get             -1.59416666666667
+19:54:56.418                           
+19:54:56.418 SiderealTime Get          GET SiderealTime - COM
+19:54:56.482 SiderealTime Get            18.2125
+19:54:56.482                           
+19:54:56.482 SiderealTime Get          GET SiderealTime - COM
+19:54:56.578 SiderealTime Get            18.2125
+19:54:57.287                           
+19:54:57.287 CanSlewAsync Get          GET CanSlewAsync - COM
+19:54:57.287 CanSlewAsync Get            True
+19:54:57.287                           
+19:54:57.287 RightAscension Get        GET RightAscension - COM
+19:54:57.360 RightAscension Get          18.3858333333333
+19:54:57.360                           
+19:54:57.361 Declination Get           GET Declination - COM
+19:54:57.440 Declination Get             -1.59416666666667
+19:54:57.440                           
+19:54:57.440 SiderealTime Get          GET SiderealTime - COM
+19:54:57.520 SiderealTime Get            18.2127777777778
+19:54:57.520                           
+19:54:57.520 SiderealTime Get          GET SiderealTime - COM
+19:54:57.616 SiderealTime Get            18.2127777777778
+19:54:57.745 Connected Set             Issuing Connected command: False
+19:54:57.745                           
+19:54:57.745 Connected Set             SET Connected - COM
+19:54:57.745 Connected Set               False
+19:55:00.066 Dispose COM               This is a COM object, attempting to call its Dispose method
+19:55:00.066 Dispose COM               Driver does not have a Dispose method
+19:55:00.066 Dispose COM               This is a COM object so attempting to release it
+19:55:00.066 Dispose COM               Object Count is now: 0

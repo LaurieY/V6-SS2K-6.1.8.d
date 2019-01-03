@@ -1,0 +1,83 @@
+Attribute VB_Name = "GlobalVariables"
+'---------------------------------------------------------------------
+' Copyright © 2000-2002 SPACE.com Inc., New York, NY
+'
+' Permission is hereby granted to use this Software for any purpose
+' including combining with commercial products, creating derivative
+' works, and redistribution of source or binary code, without
+' limitation or consideration. Any redistributed copies of this
+' Software must include the above Copyright Notice.
+'
+' THIS SOFTWARE IS PROVIDED "AS IS". SPACE.COM, INC. MAKES NO
+' WARRANTIES REGARDING THIS SOFTWARE, EXPRESS OR IMPLIED, AS TO ITS
+' SUITABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+'---------------------------------------------------------------------
+'   =============
+'   GLOBALVARIABLES.BAS
+'   =============
+'
+' Implementation of class for storing and retrieving communication settings.
+'
+' Written:  04-Jan-01   Arne Danielsen
+'
+' Edits:
+'
+' When      Who     What
+' --------- ---     --------------------------------------------------
+' 14-Jan-01 ad      Initial edit
+' 24-Jan-01 ad      Updated code to confirm with Beta 2 of the SDK
+'---------------------------------------------------------------------
+
+Global g_Util As DriverHelper.Util
+Global g_Profile As DriverHelper.Profile
+
+Global g_Communication As Communication
+Global g_Scope As Scope
+Global g_ROMVersion As ROMVersion
+Global g_SiteElevation As SiteElevation
+
+Global g_OneStar As OneStar
+
+Global g_AxisRates As AxisRates
+Global g_DriveRates As TrackingRates
+Global g_DriveRate As DriveRates
+
+Global g_Tracing As Tracing
+
+Global Const g_ID As String = "SS2K.Telescope"
+Global Const g_DESC As String = "SkySensor2000-PC"
+
+Global Const SIDEREAL_RATE_DEG_SEC = (360# / SPD) / SIDRATE
+Global Const TWENTY_PCT = 0.2 * SIDEREAL_RATE_DEG_SEC  ' 10% of sidereal rate is allowable marging of difference in rate required from that stored
+
+Global Const TEN_PCT = 0.1 * SIDEREAL_RATE_DEG_SEC  ' 10% of sidereal rate is allowable marging of difference in rate required from that stored
+Global Const ONE_PCT = 0.01 * SIDEREAL_RATE_DEG_SEC ' a rate within 1% of sidereal rate is taken to be sidereal & hence STOP in RA
+
+Global g_derrorMargin As Double
+
+
+Global Const REGSEC_TRACE As String = "Tracing"
+Global Const REGVAL_TRACE As String = "Trace"
+
+
+' ------------------------
+' connectivity management
+' ------------------------
+
+Public g_sScopeID As String
+Public g_sScopeName As String
+
+Public g_iConnections As Integer
+Public g_bConnected As Boolean
+
+Public g_bInitComplete As Boolean
+
+Public Sub Main()
+'    g_bInitComplete = False                 ' 1-Time initialization not done
+
+'    If App.StartMode = vbSModeStandalone Then
+ '       MsgBox "This driver can only be run from an ASCOM application", , "ASCOM SS2K Driver"
+ '       End
+ '   End If
+    
+End Sub

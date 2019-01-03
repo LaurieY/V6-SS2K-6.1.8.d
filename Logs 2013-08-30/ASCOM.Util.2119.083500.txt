@@ -1,0 +1,1 @@
+21:19:08.351 New                       Trace logger created OK
